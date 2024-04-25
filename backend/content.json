@@ -3,60 +3,75 @@
         "home": {
             "spotlight": {
                 "text": {
-                    "data": "Craving something yummy?\nYou've come to the right place"
+                    "data": "Craving something yummy?\nYou've come to the right place",
+                    "type": "string"
                 },
                 "image": {
-                    "data": "img/logo-nobkg.png"
+                    "data": "img/logo-nobkg.png",
+                    "type": "imagepath"
                 },
                 "background": {
-                    "data": "img/steak-bbq.jpg"
+                    "data": "img/steak-bbq.jpg",
+                    "type": "imagepath"
                 }
             },
             "card picture combo": {
                 "title": {
-                    "data": "Delivering Perfection"
+                    "data": "Delivering Perfection",
+                    "type": "string"
                 },
                 "description": {
-                    "data": "From corporate gatherings and weddings to backyard bashes and upscale soirees, Sammy's Q adapts to any occasion. Our diverse menu caters to all tastes, offering a tantalizing array of grilled delights, sides, and desserts that promise to satisfy every palate."
+                    "data": "From corporate gatherings and weddings to backyard bashes and upscale soirees, Sammy's Q adapts to any occasion. Our diverse menu caters to all tastes, offering a tantalizing array of grilled delights, sides, and desserts that promise to satisfy every palate.",
+                    "type": "string"
                 },
                 "button text": {
-                    "data": "CHECK OUT OUR MENU"
+                    "data": "CHECK OUT OUR MENU",
+                    "type": "string"
                 },
                 "image 1": {
-                    "data": "img/steak-tacos-square.jpg"
+                    "data": "img/steak-tacos-square.jpg",
+                    "type": "imagepath"
                 },
                 "image 2": {
-                    "data": "img/pulled-lamb-cut-1-square.jpg"
+                    "data": "img/pulled-lamb-cut-1-square.jpg",
+                    "type": "imagepath"
                 }
             },
             "flyers": {
                 "flyer 1": {
-                    "data": "img/sammys-flyer.jpg"
+                    "data": "img/sammys-flyer.jpg",
+                    "type": "imagepath"
                 },
                 "flyer 2": {
-                    "data": "img/catering-flyer.jpg"
+                    "data": "img/catering-flyer.jpg",
+                    "type": "imagepath"
                 }
             },
             "order prompt": {
                 "button text": {
-                    "data": "ORDER NOW"
+                    "data": "ORDER NOW",
+                    "type": "string"
                 }
             }
         },
         "menu": {
             "image 1": {
-                "data": "img/pulled-pork-sandwich.jpg"
+                "data": "img/pulled-pork-sandwich.jpg",
+                "type": "imagepath"
             },
             "image 2": {
-                "data": "img/pulled-lamb-bbq.jpg"
+                "data": "img/pulled-lamb-bbq.jpg",
+                "type": "imagepath"
             },
             "image 3": {
-                "data": "img/sausages.jpg"
+                "data": "img/sausages.jpg",
+                "type": "imagepath"
             },
             "menus": [
                 {
                     "title": {
-                        "data": "BBQ Menu"
+                        "data": "BBQ Menu",
+                        "type": "string"
                     },
                     "items": {
                         "data": [
@@ -95,129 +110,162 @@
                                 "ItemImagePath": "",
                                 "Description": ""
                             }
-                        ]
+                        ],
+                        "type": "list"
                     }
                 }
             ],
             "footer": {
                 "lead": {
-                    "data": "See something you like?"
+                    "data": "See something you like?",
+                    "type": "string"
                 },
                 "button text": {
-                    "data": "Order now"
+                    "data": "Order now",
+                    "type": "string"
                 }
             }
         },
         "order": {
             "header": {
-                "data": "Reach out to us for more information on how we can help make your next event one to remember"
+                "data": "Reach out to us for more information on how we can help make your next event one to remember",
+                "type": "string"
             }
         },
         "pit": {
             "header": {
                 "background image": {
-                    "data": "img/bbq-logo.jpg"
+                    "data": "img/bbq-logo.jpg",
+                    "type": "imagepath"
                 },
                 "text": {
-                    "data": "Welcome to the Pit"
+                    "data": "Welcome to the Pit",
+                    "type": "string"
                 }
             },
             "blurb 1": {
                 "title": {
-                    "data": "Title 1"
+                    "data": "Title 1",
+                    "type": "string"
                 },
                 "paragraph": {
-                    "data": "500 Gallon Trailered Offset Smoker (built by Bog Line BBQ)"
+                    "data": "500 Gallon Trailered Offset Smoker (built by Bog Line BBQ)",
+                    "type": "string"
                 },
                 "image": {
-                    "data": "img/bbq-sideview.jpg"
+                    "data": "img/bbq-sideview.jpg",
+                    "type": "imagepath"
                 },
                 "image caption": {
-                    "data": "Bog Line BBQ - 500 Gallon Trailered Offset Smoker"
+                    "data": "Bog Line BBQ - 500 Gallon Trailered Offset Smoker",
+                    "type": "string"
                 }
             },
             "blurb 2": {
                 "title": {
-                    "data": "Another Header"
+                    "data": "Another Header",
+                    "type": "string"
                 },
                 "paragraph": {
-                    "data": "Bunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other words"
+                    "data": "Bunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other words",
+                    "type": "string"
                 },
                 "image": {
-                    "data": "img/bbq-logo.jpg"
+                    "data": "img/bbq-logo.jpg",
+                    "type": "imagepath"
                 },
                 "image caption": {
-                    "data": ""
+                    "data": "",
+                    "type": "string"
                 }
             },
             "Image Triplet": {
                 "image 1": {
-                    "data": "img/bbq-outside-day.jpg"
+                    "data": "img/bbq-outside-day.jpg",
+                    "type": "imagepath"
                 },
                 "image 2": {
-                    "data": "img/bbq-topview.jpg"
+                    "data": "img/bbq-topview.jpg",
+                    "type": "imagepath"
                 },
                 "image 3": {
-                    "data": "img/bbq-outside-night.jpg"
+                    "data": "img/bbq-outside-night.jpg",
+                    "type": "imagepath"
                 }
             }
         },
         "accessories": {
             "header": {
                 "image": {
-                    "data": "img/coal-wood-group.jpg"
+                    "data": "img/coal-wood-group.jpg",
+                    "type": "imagepath"
                 },
                 "text": {
-                    "data": "Description of accessories Description of accessories Description of accessories Description of accessories Description of accessories Description of accessories Description of accessories Description of accessories Description of accessories Description of accessories Description of accessories Description of accessories Description of accessories Description of accessories Description of accessories Description of accessories"
+                    "data": "Description of accessories Description of accessories Description of accessories Description of accessories Description of accessories Description of accessories Description of accessories Description of accessories Description of accessories Description of accessories Description of accessories Description of accessories Description of accessories Description of accessories Description of accessories Description of accessories",
+                    "type": "string"
                 }
             },
             "wood": {
                 "title": {
-                    "data": "Matt's Smokin' Firewood - Premium Smoking Wood"
+                    "data": "Matt's Smokin' Firewood - Premium Smoking Wood",
+                    "type": "string"
                 },
                 "content": {
                     "text": {
-                        "data": "Wood Description Wood Description Wood Description Wood Description Wood Description Wood Description Wood Description Wood Description Wood Description Wood Description Wood Description Wood Description Wood Description Wood Description Wood Description Wood Description Wood Description Wood Description"
+                        "data": "Wood Description Wood Description Wood Description Wood Description Wood Description Wood Description Wood Description Wood Description Wood Description Wood Description Wood Description Wood Description Wood Description Wood Description Wood Description Wood Description Wood Description Wood Description",
+                        "type": "string"
                     },
                     "image 1": {
-                        "data": "img/wood-bagged1.jpg"
+                        "data": "img/wood-bagged1.jpg",
+                        "type": "imagepath"
                     },
                     "image 2": {
-                        "data": "img/wood-bagged2.jpg"
+                        "data": "img/wood-bagged2.jpg",
+                        "type": "imagepath"
                     },
                     "image 3": {
-                        "data": "img/wood-closeup1.jpg"
+                        "data": "img/wood-closeup1.jpg",
+                        "type": "imagepath"
                     },
                     "image 4": {
-                        "data": "img/wood-closeup2.jpg"
+                        "data": "img/wood-closeup2.jpg",
+                        "type": "imagepath"
                     },
                     "link title": {
-                        "data": "Matt's Smokin' Firewood - Premium Smoking Wood"
+                        "data": "Matt's Smokin' Firewood - Premium Smoking Wood",
+                        "type": "string"
                     },
                     "link destination": {
-                        "data": "https://www.mattswood.online/"
+                        "data": "https://www.mattswood.online/",
+                        "type": "string"
                     }
                 }
             },
             "coal": {
                 "title": {
-                    "data": "Bog Line Bush Coal"
+                    "data": "Bog Line Bush Coal",
+                    "type": "string"
                 },
                 "content": {
                     "text": {
-                        "data": "Coal Description Coal Description Coal Description Coal Description Coal Description Coal Description Coal Description Coal Description Coal Description Coal Description Coal Description Coal Description Coal Description Coal Description Coal Description Coal Description Coal Description Coal Description"
+                        "data": "Coal Description Coal Description Coal Description Coal Description Coal Description Coal Description Coal Description Coal Description Coal Description Coal Description Coal Description Coal Description Coal Description Coal Description Coal Description Coal Description Coal Description Coal Description",
+                        "type": "string"
                     },
                     "image 1": {
-                        "data": "img/bush-coal.jpg"
+                        "data": "img/bush-coal.jpg",
+                        "type": "imagepath"
                     },
                     "image 2": {
-                        "data": "img/bush-coal-closeup.jpg"
+                        "data": "img/bush-coal-closeup.jpg",
+                        "type": "imagepath"
                     },
                     "link title": {
-                        "data": "Bog Line Bush Coal Premium Charcoal"
+                        "data": "Bog Line Bush Coal Premium Charcoal",
+                        "type": "string"
                     },
                     "link destination": {
-                        "data": "https://www.instagram.com/reel/C4jlxpAugNS/"
+                        "data": "https://www.instagram.com/reel/C4jlxpAugNS/",
+                        "type": "string"
                     }
                 }
             }
@@ -225,13 +273,16 @@
         "pit master": {
             "blurb 1": {
                 "title": {
-                    "data": "MEET THE PIT MASTER - SAM SCALA"
+                    "data": "MEET THE PIT MASTER - SAM SCALA",
+                    "type": "string"
                 },
                 "paragraph": {
-                    "data": "Sam does this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and\nSam also does this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and\nSam also does this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and"
+                    "data": "Sam does this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and\nSam also does this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and\nSam also does this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and",
+                    "type": "string"
                 },
                 "image": {
-                    "data": "img/sammy-wolfhead.jpg"
+                    "data": "img/sammy-wolfhead.jpg",
+                    "type": "imagepath"
                 }
             }
         }

@@ -1,0 +1,34 @@
+@page "/edit"
+@using SammysBBQ.Pages.Edit.Components
+@using SammysBBQ.Data
+
+<Column Width="Width.Is75" Margin="Margin.IsAuto" TextAlignment="TextAlignment.Center">
+@if(Content != null)
+{
+
+    @foreach (Dictionary<List<string>, string> entry in StrEditableData)
+    {
+        <StringEditable Breadcrumb="@entry.Keys.First()" Data="@entry.Values.First()" />
+
+        <br>
+        <br>
+    }
+
+    @foreach (Dictionary<List<string>, string> entry in ImgEditableData)
+    {
+        <ImageEditable Breadcrumb="@entry.Keys.First()" Data="@entry.Values.First()" AvailableImages="@AvailableImages" />
+
+        <br>
+        <br>
+    }
+
+    @foreach (Dictionary<List<string>, List<MenuItemContent>> entry in MenuEditableData)
+    {
+        <MenuEditable Breadcrumb="@entry.Keys.First()" Data="@entry.Values.First()" AvailableImages="@AvailableImages" />
+            
+        <br>
+        <br>
+    }
+
+}
+</Column>

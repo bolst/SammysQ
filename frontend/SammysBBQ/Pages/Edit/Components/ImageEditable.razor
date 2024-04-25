@@ -1,0 +1,37 @@
+﻿@namespace SammysBBQ.Pages.Edit.Components
+
+@if(ShowBreadcrumb)
+{
+    <Breadcrumb>
+        @foreach (string s in Breadcrumb)
+        {
+            <BreadcrumbItem>
+                <BreadcrumbLink TextColor="TextColor.Secondary">@s</BreadcrumbLink>
+            </BreadcrumbItem>
+        }
+    </Breadcrumb>
+}
+
+<Row>
+    <Column ColumnSize="ColumnSize.Is6">
+         <Select TValue="string" @bind-SelectedValue="@Data">
+             @foreach(string availableImage in AvailableImages)
+            {
+                <SelectItem Value="@availableImage">@availableImage</SelectItem>
+            }
+        </Select>
+    </Column>
+    <Column ColumnSize="ColumnSize.Is6">
+        <Figure Size="FigureSize.Is128x128">
+            <FigureImage Source="@Data" />
+        </Figure>
+    </Column>
+</Row>
+
+
+@code {
+    [Parameter] public List<string> Breadcrumb { get; set; } = new();
+    [Parameter] public string Data { get; set; } = "";
+    [Parameter] public List<string> AvailableImages { get; set; } = new();
+    [Parameter] public bool ShowBreadcrumb { get; set; } = true;
+}

@@ -1,5 +1,7 @@
 using Blazorise;
 using Blazorise.Bootstrap5;
+using Microsoft.AspNetCore.Components.Authorization;
+using Microsoft.AspNetCore.Components.Server.ProtectedBrowserStorage;
 using Blazorise.Icons.FontAwesome;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,6 +11,18 @@ builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 
 AddBlazorise(builder.Services);
+
+builder.Services.AddAuthenticationCore();
+builder.Services.AddAuthorizationCore();
+builder.Services.AddScoped<ProtectedSessionStorage>();
+builder.Services.AddScoped<AuthenticationStateProvider, UserAuthenticationStateProvider>();
+var users = await UserFactory.GetInstance().Users();
+builder.Services.AddSingleton<UserService>(s =>
+{
+    var userService = UserService.GetInstance();
+    userService.SetUsers(users);
+    return userService;
+});
 
 var app = builder.Build();
 

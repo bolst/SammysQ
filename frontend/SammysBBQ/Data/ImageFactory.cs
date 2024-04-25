@@ -37,5 +37,20 @@ namespace SammysBBQ.Data
                 return s;
             }
         }
+
+        public List<string> AllImages()
+        {
+            string searchFolder = "wwwroot";
+            string[] filters = { "jpg", "jpeg", "png" };
+            List<string> filesFound = new();
+            var searchOption = SearchOption.AllDirectories;
+            foreach (var filter in filters)
+            {
+                var f = Directory.GetFiles(searchFolder, String.Format("*.{0}", filter), searchOption).ToList();
+                List<string> files = f.Select(s => s.Replace("\\", "/").Replace("wwwroot/", "")).ToList();
+                filesFound.AddRange(files);
+            }
+            return filesFound;
+        }
     }
 }

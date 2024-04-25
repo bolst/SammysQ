@@ -1,0 +1,25 @@
+﻿@namespace SammysBBQ.Pages.Edit.Components
+
+@if(ShowBreadcrumb)
+{
+    <Breadcrumb>
+        @foreach (string s in Breadcrumb)
+        {
+            <BreadcrumbItem>
+                <BreadcrumbLink TextColor="TextColor.Secondary">@s</BreadcrumbLink>
+            </BreadcrumbItem>
+        }
+    </Breadcrumb>
+}
+
+<Div Margin="Margin.IsAuto" TextAlignment="TextAlignment.Center">
+    <MemoEdit Text="@Data" AutoSize />
+ </Div>
+
+
+@code {
+    [Parameter] public List<string> Breadcrumb { get; set; } = new();
+    [Parameter] public string Data { get; set; } = "";
+    [Parameter] public bool ShowBreadcrumb { get; set; } = true;
+
+}

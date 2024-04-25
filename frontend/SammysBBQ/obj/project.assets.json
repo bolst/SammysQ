@@ -5373,11 +5373,11 @@
   "project": {
     "version": "1.3.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Nic\\source\\repos\\SammysBBQ\\SammysBBQ\\SammysBBQ\\SammysBBQ.csproj",
+      "projectUniqueName": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\SammysBBQ.csproj",
       "projectName": "SammysBBQ",
-      "projectPath": "C:\\Users\\Nic\\source\\repos\\SammysBBQ\\SammysBBQ\\SammysBBQ\\SammysBBQ.csproj",
+      "projectPath": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\SammysBBQ.csproj",
       "packagesPath": "C:\\Users\\Nic\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Nic\\source\\repos\\SammysBBQ\\SammysBBQ\\SammysBBQ\\obj\\",
+      "outputPath": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Nic\\AppData\\Roaming\\NuGet\\NuGet.Config",

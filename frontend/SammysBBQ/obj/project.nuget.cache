@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Z9qLgxW+W0tK5TDjv2lBjKpl5KFp38i4tCjPEL5JWvK2t1xzWZAEG4N1/v3JsJHq+e8s6C5nS0t9VqHB5c26Tw==",
+  "dgSpecHash": "Kn9u9PqCkSWLVL6KdbkUOPWj5QONcPWaOnLDRbabVChKppo4HeCP34Xf/oBu2TyP5YfNBN/FJyQK5GTBfPK1nw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Nic\\source\\repos\\SammysBBQ\\SammysBBQ\\SammysBBQ\\SammysBBQ.csproj",
+  "projectFilePath": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\SammysBBQ.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\blazorise.1.3.4.nupkg.sha512",
     "C:\\Users\\Nic\\.nuget\\packages\\blazorise.animate\\1.3.4\\blazorise.animate.1.3.4.nupkg.sha512",

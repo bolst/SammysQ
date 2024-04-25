@@ -88,6 +88,17 @@ def validate():
         return 'success'
     return 'error'
 
+@app.route('/users')
+def users():
+    retval = []
+    def GetUserInfo():
+        with open(os.path.join(DIR,'users.json'), 'r') as f:
+            return json.load(f)
+    users = GetUserInfo()
+    for user in users:
+        retval.append(user['name'])
+    return jsonify(retval)
+
 
 @app.errorhandler(401)
 def custom_401(error):

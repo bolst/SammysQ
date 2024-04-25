@@ -1,0 +1,30 @@
+﻿@using SammysBBQ.Data
+
+@foreach(MenuItemContent menuItem in Data)
+{
+    <Card Background="Background.Dark" Border="Border.Is1.Rounded.Light" Width="Width.Is75" Margin="Margin.IsAuto">
+        <CardBody>
+
+            <Heading TextColor="TextColor.White">Title</Heading>
+            <StringEditable Breadcrumb="@Breadcrumb" Data="@menuItem.ItemName" ShowBreadcrumb=false />
+
+            <Divider />
+
+            <ImageEditable Breadcrumb="@Breadcrumb" Data="@menuItem.ItemImagePath" AvailableImages="@AvailableImages" ShowBreadcrumb=false />
+
+            <Divider />
+             
+            <Heading TextColor="TextColor.White">Description</Heading>
+            <StringEditable Breadcrumb="@Breadcrumb" Data="@menuItem.Description" ShowBreadcrumb=false />
+
+        </CardBody>
+    </Card>
+
+    <br />
+}
+
+@code {
+    [Parameter] public List<string> Breadcrumb { get; set; } = new();
+    [Parameter] public List<MenuItemContent> Data { get; set; } = new();
+    [Parameter] public List<string> AvailableImages { get; set; } = new();
+}

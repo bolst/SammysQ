@@ -9,151 +9,171 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SammysBBQ
 build_property.RootNamespace = SammysBBQ
-build_property.ProjectDir = C:\Users\Nic\source\repos\SammysBBQ\SammysBBQ\SammysBBQ\
+build_property.ProjectDir = C:\Users\Nic\git\SammysQ\frontend\SammysBBQ\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Nic\source\repos\SammysBBQ\SammysBBQ\SammysBBQ
+build_property.MSBuildProjectDirectory = C:\Users\Nic\git\SammysQ\frontend\SammysBBQ
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Nic/source/repos/SammysBBQ/SammysBBQ/SammysBBQ/App.razor]
+[C:/Users/Nic/git/SammysQ/frontend/SammysBBQ/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nic/source/repos/SammysBBQ/SammysBBQ/SammysBBQ/Components/DefaultButton.razor]
+[C:/Users/Nic/git/SammysQ/frontend/SammysBBQ/Components/DefaultButton.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xEZWZhdWx0QnV0dG9uLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nic/source/repos/SammysBBQ/SammysBBQ/SammysBBQ/Components/FancyImage.razor]
+[C:/Users/Nic/git/SammysQ/frontend/SammysBBQ/Components/FancyImage.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xGYW5jeUltYWdlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nic/source/repos/SammysBBQ/SammysBBQ/SammysBBQ/Components/FloatingJumbotron.razor]
+[C:/Users/Nic/git/SammysQ/frontend/SammysBBQ/Components/FloatingJumbotron.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xGbG9hdGluZ0p1bWJvdHJvbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nic/source/repos/SammysBBQ/SammysBBQ/SammysBBQ/Components/Layout/FooterMenu.razor]
+[C:/Users/Nic/git/SammysQ/frontend/SammysBBQ/Components/Layout/FooterMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcRm9vdGVyTWVudS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nic/source/repos/SammysBBQ/SammysBBQ/SammysBBQ/Components/Layout/TopMenu.razor]
+[C:/Users/Nic/git/SammysQ/frontend/SammysBBQ/Components/Layout/TopMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcVG9wTWVudS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nic/source/repos/SammysBBQ/SammysBBQ/SammysBBQ/Components/Layout/TopMenuItem.razor]
+[C:/Users/Nic/git/SammysQ/frontend/SammysBBQ/Components/Layout/TopMenuItem.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcVG9wTWVudUl0ZW0ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nic/source/repos/SammysBBQ/SammysBBQ/SammysBBQ/Layouts/MainLayout.razor]
+[C:/Users/Nic/git/SammysQ/frontend/SammysBBQ/Layouts/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0c1xNYWluTGF5b3V0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nic/source/repos/SammysBBQ/SammysBBQ/SammysBBQ/Pages/Accessories/Accessories.razor]
+[C:/Users/Nic/git/SammysQ/frontend/SammysBBQ/Pages/Accessories/Accessories.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjZXNzb3JpZXNcQWNjZXNzb3JpZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nic/source/repos/SammysBBQ/SammysBBQ/SammysBBQ/Pages/Accessories/Components/AccessoryHeader.razor]
+[C:/Users/Nic/git/SammysQ/frontend/SammysBBQ/Pages/Accessories/Components/AccessoryHeader.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjZXNzb3JpZXNcQ29tcG9uZW50c1xBY2Nlc3NvcnlIZWFkZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nic/source/repos/SammysBBQ/SammysBBQ/SammysBBQ/Pages/Accessories/Components/AccessoryModule.razor]
+[C:/Users/Nic/git/SammysQ/frontend/SammysBBQ/Pages/Accessories/Components/AccessoryModule.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjZXNzb3JpZXNcQ29tcG9uZW50c1xBY2Nlc3NvcnlNb2R1bGUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nic/source/repos/SammysBBQ/SammysBBQ/SammysBBQ/Pages/Accessories/Components/CoalContent.razor]
+[C:/Users/Nic/git/SammysQ/frontend/SammysBBQ/Pages/Accessories/Components/CoalContent.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjZXNzb3JpZXNcQ29tcG9uZW50c1xDb2FsQ29udGVudC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nic/source/repos/SammysBBQ/SammysBBQ/SammysBBQ/Pages/Accessories/Components/WoodContent.razor]
+[C:/Users/Nic/git/SammysQ/frontend/SammysBBQ/Pages/Accessories/Components/WoodContent.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjZXNzb3JpZXNcQ29tcG9uZW50c1xXb29kQ29udGVudC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nic/source/repos/SammysBBQ/SammysBBQ/SammysBBQ/Pages/Home/Components/CardPictureCombo.razor]
+[C:/Users/Nic/git/SammysQ/frontend/SammysBBQ/Pages/Edit/Components/ImageEditable.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdFxDb21wb25lbnRzXEltYWdlRWRpdGFibGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nic/git/SammysQ/frontend/SammysBBQ/Pages/Edit/Components/MenuEditable.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdFxDb21wb25lbnRzXE1lbnVFZGl0YWJsZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nic/git/SammysQ/frontend/SammysBBQ/Pages/Edit/Components/StringEditable.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdFxDb21wb25lbnRzXFN0cmluZ0VkaXRhYmxlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nic/git/SammysQ/frontend/SammysBBQ/Pages/Edit/Edit.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdFxFZGl0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nic/git/SammysQ/frontend/SammysBBQ/Pages/Home/Components/CardPictureCombo.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZVxDb21wb25lbnRzXENhcmRQaWN0dXJlQ29tYm8ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nic/source/repos/SammysBBQ/SammysBBQ/SammysBBQ/Pages/Home/Components/Flyers.razor]
+[C:/Users/Nic/git/SammysQ/frontend/SammysBBQ/Pages/Home/Components/Flyers.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZVxDb21wb25lbnRzXEZseWVycy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nic/source/repos/SammysBBQ/SammysBBQ/SammysBBQ/Pages/Home/Components/OrderPrompt.razor]
+[C:/Users/Nic/git/SammysQ/frontend/SammysBBQ/Pages/Home/Components/OrderPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZVxDb21wb25lbnRzXE9yZGVyUHJvbXB0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nic/source/repos/SammysBBQ/SammysBBQ/SammysBBQ/Pages/Home/Components/Spotlight.razor]
+[C:/Users/Nic/git/SammysQ/frontend/SammysBBQ/Pages/Home/Components/Spotlight.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZVxDb21wb25lbnRzXFNwb3RsaWdodC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nic/source/repos/SammysBBQ/SammysBBQ/SammysBBQ/Pages/Home/Home.razor]
+[C:/Users/Nic/git/SammysQ/frontend/SammysBBQ/Pages/Home/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZVxIb21lLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nic/source/repos/SammysBBQ/SammysBBQ/SammysBBQ/Pages/Menu/Components/MenuImages.razor]
+[C:/Users/Nic/git/SammysQ/frontend/SammysBBQ/Pages/Login/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW5cTG9naW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nic/git/SammysQ/frontend/SammysBBQ/Pages/Menu/Components/MenuImages.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVudVxDb21wb25lbnRzXE1lbnVJbWFnZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nic/source/repos/SammysBBQ/SammysBBQ/SammysBBQ/Pages/Menu/Components/MenuItem.razor]
+[C:/Users/Nic/git/SammysQ/frontend/SammysBBQ/Pages/Menu/Components/MenuItem.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVudVxDb21wb25lbnRzXE1lbnVJdGVtLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nic/source/repos/SammysBBQ/SammysBBQ/SammysBBQ/Pages/Menu/Components/MenuOrderPrompt.razor]
+[C:/Users/Nic/git/SammysQ/frontend/SammysBBQ/Pages/Menu/Components/MenuOrderPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVudVxDb21wb25lbnRzXE1lbnVPcmRlclByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nic/source/repos/SammysBBQ/SammysBBQ/SammysBBQ/Pages/Menu/Menu.razor]
+[C:/Users/Nic/git/SammysQ/frontend/SammysBBQ/Pages/Menu/Menu.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVudVxNZW51LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nic/source/repos/SammysBBQ/SammysBBQ/SammysBBQ/Pages/Order/Components/SocialLink.razor]
+[C:/Users/Nic/git/SammysQ/frontend/SammysBBQ/Pages/Order/Components/SocialLink.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3JkZXJcQ29tcG9uZW50c1xTb2NpYWxMaW5rLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nic/source/repos/SammysBBQ/SammysBBQ/SammysBBQ/Pages/Order/Order.razor]
+[C:/Users/Nic/git/SammysQ/frontend/SammysBBQ/Pages/Order/Order.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3JkZXJcT3JkZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nic/source/repos/SammysBBQ/SammysBBQ/SammysBBQ/Pages/Pit Master/Components/PitHeader.razor]
+[C:/Users/Nic/git/SammysQ/frontend/SammysBBQ/Pages/Pit Master/Components/PitHeader.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGl0IE1hc3RlclxDb21wb25lbnRzXFBpdEhlYWRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nic/source/repos/SammysBBQ/SammysBBQ/SammysBBQ/Pages/Pit Master/Components/PitParagraph.razor]
+[C:/Users/Nic/git/SammysQ/frontend/SammysBBQ/Pages/Pit Master/Components/PitParagraph.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGl0IE1hc3RlclxDb21wb25lbnRzXFBpdFBhcmFncmFwaC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nic/source/repos/SammysBBQ/SammysBBQ/SammysBBQ/Pages/Pit Master/PitMaster.razor]
+[C:/Users/Nic/git/SammysQ/frontend/SammysBBQ/Pages/Pit Master/PitMaster.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGl0IE1hc3RlclxQaXRNYXN0ZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nic/source/repos/SammysBBQ/SammysBBQ/SammysBBQ/Pages/Pit/Components/PitBar.razor]
+[C:/Users/Nic/git/SammysQ/frontend/SammysBBQ/Pages/Pit/Components/PitBar.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGl0XENvbXBvbmVudHNcUGl0QmFyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nic/source/repos/SammysBBQ/SammysBBQ/SammysBBQ/Pages/Pit/Components/PitHeading.razor]
+[C:/Users/Nic/git/SammysQ/frontend/SammysBBQ/Pages/Pit/Components/PitHeading.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGl0XENvbXBvbmVudHNcUGl0SGVhZGluZy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nic/source/repos/SammysBBQ/SammysBBQ/SammysBBQ/Pages/Pit/Components/PitParagraph.razor]
+[C:/Users/Nic/git/SammysQ/frontend/SammysBBQ/Pages/Pit/Components/PitParagraph.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGl0XENvbXBvbmVudHNcUGl0UGFyYWdyYXBoLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nic/source/repos/SammysBBQ/SammysBBQ/SammysBBQ/Pages/Pit/MyPit.razor]
+[C:/Users/Nic/git/SammysQ/frontend/SammysBBQ/Pages/Pit/MyPit.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGl0XE15UGl0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nic/source/repos/SammysBBQ/SammysBBQ/SammysBBQ/_Imports.razor]
+[C:/Users/Nic/git/SammysQ/frontend/SammysBBQ/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nic/source/repos/SammysBBQ/SammysBBQ/SammysBBQ/Pages/Error.cshtml]
+[C:/Users/Nic/git/SammysQ/frontend/SammysBBQ/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nic/source/repos/SammysBBQ/SammysBBQ/SammysBBQ/Pages/_Host.cshtml]
+[C:/Users/Nic/git/SammysQ/frontend/SammysBBQ/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nic/source/repos/SammysBBQ/SammysBBQ/SammysBBQ/Pages/_Layout.cshtml]
+[C:/Users/Nic/git/SammysQ/frontend/SammysBBQ/Pages/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

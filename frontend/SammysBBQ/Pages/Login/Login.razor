@@ -1,0 +1,59 @@
+@page "/login"
+@using SammysBBQ.Components
+@inject NavigationManager navManager
+@inject UserService userService
+@inject AuthenticationStateProvider authStateProvider
+
+<FloatingJumbotron>
+
+    <Div Margin="Margin.IsAuto" Width="Width.Is50">
+        <Form>
+            <Fields>
+                <Field>
+                    <FieldBody>
+                        <TextEdit Placeholder="Username" @bind-Text="@UsernameInput" />
+                    </FieldBody>
+                </Field>
+            </Fields>
+            <Fields>
+                <Field>
+                    <FieldBody>
+                        <TextEdit Placeholder="Password" Role="TextRole.Password" @bind-Text="@PasswordInput" />
+                    </FieldBody>
+                </Field>
+            </Fields>
+            <Field>
+                <Button Color="Color.Primary" Clicked="@OnLogInClicked">
+                    Log in
+                </Button>
+            </Field>
+        </Form>
+    </Div>
+
+</FloatingJumbotron>
+
+@code {
+    private string UsernameInput = "";
+    private string PasswordInput = "";
+
+    async Task OnLogInClicked()
+    {
+        Console.WriteLine("Logging in");
+        Console.WriteLine(UsernameInput);
+        Console.WriteLine(PasswordInput);
+
+        var user = userService.GetByUsername(UsernameInput);
+        if (user == null || await user.CheckPassword(PasswordInput) == false)
+        {
+            return;
+        }
+
+        var userAuthStateProvider = (UserAuthenticationStateProvider)authStateProvider;
+        await userAuthStateProvider.UpdateAuthenticationState(new UserSession
+            {
+                Username = user.Username
+            });
+
+        navManager.NavigateTo("/", true);
+    }
+}
