@@ -1,0 +1,20 @@
+﻿@using SammysBBQ.Components.Layout
+@inherits LayoutComponentBase
+
+<Layout>
+    <LayoutHeader>
+        <TopMenu />
+    </LayoutHeader>
+    <LayoutContent>
+        @Body
+    </LayoutContent>
+    <LayoutFooter>
+        <FooterMenu />
+    </LayoutFooter>
+</Layout>
+
+<style>
+    body {
+        background-color: var(--b-theme-dark);
+    }
+</style>

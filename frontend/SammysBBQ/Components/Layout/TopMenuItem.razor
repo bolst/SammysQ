@@ -1,0 +1,30 @@
+@inject NavigationManager NavManager
+
+@if (Current)
+{
+    <li class="menu-item"><a onclick="@GoToPage" class="menu-item a"
+            style="cursor: pointer; color: var(--b-theme-info);">@ChildContent</a></li>
+}
+else
+{
+    <li class="menu-item"><a onclick="@GoToPage" class="menu-item a" style="cursor: pointer">@ChildContent</a></li>
+}
+
+
+@code {
+    [Parameter] public RenderFragment? ChildContent { get; set; }
+    [Parameter] public string To { get; set; } = "";
+
+    private bool Current = false;
+
+    protected override void OnInitialized()
+    {
+        string page = NavManager.Uri.Replace(NavManager.BaseUri, "");
+        Current = page == To;
+    }
+
+    private void GoToPage()
+    {
+        NavManager.NavigateTo(To, true);
+    }
+}

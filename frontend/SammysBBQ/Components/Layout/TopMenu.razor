@@ -1,0 +1,22 @@
+﻿@using SammysBBQ.Data
+
+
+<link href="css/styles.css" rel="stylesheet" />
+<link href="css/responsive.css" rel="stylesheet" />
+
+<div class="top-menu-bar" style="@Style">
+    <ul class="menu-list">
+        <TopMenuItem To="/"><img src=@logoPath class="menu-logo" /></TopMenuItem>
+        <TopMenuItem To="menu">MENU</TopMenuItem>
+        <TopMenuItem To="order">ORDER</TopMenuItem>
+        <TopMenuItem To="pit">MY PIT</TopMenuItem>
+        <TopMenuItem To="accessories">ACCESSORIES</TopMenuItem>
+        <TopMenuItem To="pit-master">THE PIT MASTER</TopMenuItem>
+    </ul>
+</div>
+
+
+@code {
+    private string logoPath = ImageFactory.Instance.Logo(false);
+    private string Style = "";//$"background-image: url({ImageSources.Wings});";
+}

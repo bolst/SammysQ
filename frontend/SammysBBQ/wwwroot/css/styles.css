@@ -1,0 +1,60 @@
+﻿/* styles.css */
+
+.top-menu-bar {
+    background-color: var(--b-theme-dark);
+    color: var(--b-theme-light);
+    padding: 40px;
+    text-align: center;
+    /* Center the text */
+}
+
+.menu-logo {
+    max-height: 100px;
+    /* Adjust the height of the logo */
+    margin-right: 20px;
+    /* Add margin to the right of the logo */
+}
+
+.menu-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    /* Center the menu items */
+    align-items: center;
+}
+
+.menu-item {
+    margin-right: 50px;
+    /* Increased margin between menu items */
+}
+
+.menu-item:last-child {
+    margin-right: 0;
+    /* Remove margin from the last menu item */
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: var(--b-theme-primary);
+    font-size: 24px;
+    /* Larger font size */
+    font-weight: bold;
+    /* Bold text */
+}
+
+.menu-item a:hover {
+    color: var(--b-theme-secondary);
+    /* color on hover */
+}
+
+.single-image-container {
+    display: flex;
+    height: 75vh;
+}
+
+.single-image-container img {
+    max-height: 95%;
+    max-width: 95%;
+}

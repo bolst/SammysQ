@@ -1,0 +1,33 @@
+@using SammysBBQ.Data
+@inject IJSRuntime JSRuntime
+
+<Div TextAlignment="TextAlignment.Center" Padding="Padding.Is5.FromTop.Is5.FromBottom">
+    <DefaultButton To="/order">@ButtonText</DefaultButton>
+</Div>
+
+@code {
+    private string ButtonText = "ORDER NOW";
+    private bool IsMobile { get; set; } = false;
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            IsMobile = await JSRuntime.InvokeAsync<bool>("isDevice");
+        }
+        catch (JSDisconnectedException exc)
+        {
+            Console.WriteLine("Warning: JS DISCONNET");
+            Console.WriteLine(exc.StackTrace);
+            IsMobile = false;
+        }
+
+        JsonDocument? data = await ApiDataFactory.Instance.Get(new List<string>() { "root", "home", "order prompt" });
+        if (data != null)
+        {
+            ButtonText = data.RootElement.GetProperty("button text").GetProperty("data").ToString();
+        }
+
+
+
+    }
+}

@@ -1,0 +1,17 @@
+@inject NavigationManager NavManager
+
+<Button Color="@ButtonColor" TextWeight="@ButtonTextWeight" Size="@ButtonSize"
+    onclick="@GoToPage">@ChildContent</Button>
+
+@code {
+    [Parameter] public RenderFragment? ChildContent { get; set; }
+    [Parameter] public Color ButtonColor { get; set; } = Color.Primary;
+    [Parameter] public TextWeight ButtonTextWeight { get; set; } = TextWeight.Bold;
+    [Parameter] public Size ButtonSize { get; set; } = Size.ExtraLarge;
+    [Parameter] public string To { get; set; } = "/";
+
+    private void GoToPage()
+    {
+        NavManager.NavigateTo(To, true);
+    }
+}

@@ -1,0 +1,37 @@
+﻿@using Blazorise @*idk why warning happens when this line isn't included*@
+@using SammysBBQ.Data
+
+<UnorderedListItem onclick="@ShowInfoModal" style="cursor: pointer">
+    <JumbotronSubtitle>
+        @Content.ItemName
+    </JumbotronSubtitle>
+</UnorderedListItem>
+
+<Modal @ref="ModalRef">
+    <ModalContent Centered Background="Background.Dark">
+        <ModalBody>
+            <Row TextAlignment="TextAlignment.End">
+                <Icon Name="IconName.TimesCircle" onclick="@HideInfoModal" style="cursor: pointer" />
+            </Row>
+            @if (Content.ItemImagePath != null)
+            {
+                <Row>
+                    <Image Source="@Content.ItemImagePath" Padding="Padding.Is3" Fluid />
+                </Row>
+            }
+        </ModalBody>
+    </ModalContent>
+</Modal>
+
+@code {
+    [Parameter] public RenderFragment? ChildContent { get; set; }
+    [Parameter] public MenuItemContent Content { get; set; }
+
+    private Modal ModalRef;
+    private void ShowInfoModal()
+    {
+        if (!String.IsNullOrEmpty(Content.ItemImagePath) || !String.IsNullOrEmpty(Content.Description))
+            ModalRef.Show();
+    }
+    private void HideInfoModal() { ModalRef.Hide(); }
+}

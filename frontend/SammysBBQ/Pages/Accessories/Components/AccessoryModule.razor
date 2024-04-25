@@ -1,0 +1,51 @@
+@namespace SammysBBQ.Pages.Accessories.Components
+@using SammysBBQ.Data
+@inject IJSRuntime JSRuntime
+
+<Card Width="Width.Is75" Margin="Margin.IsAuto" Background="Background.Dark" Border="Border.Is1.Rounded.Info"
+    Style="box-shadow: var(--b-theme-info) 0px 0px 8px 0px;">
+    @if (!String.IsNullOrEmpty(Title))
+    {
+        <Bar Background="Background.Info" Border="Border.Is1.Rounded.Dark">
+            @if (HeaderIconName != null)
+            {
+                <Column ColumnSize="ColumnSize.Is1" TextAlignment="TextAlignment.Center">
+                    <Icon Name="@HeaderIconName" IconSize="IconSize.x2" Padding="Padding.Is2.OnMobile" />
+                </Column>
+            }
+            <Column>
+                <DisplayHeading TextColor="TextColor.Dark" Padding="Padding.Is4.FromStart"
+                    TextAlignment="TextAlignment.Start" Size="DisplayHeadingSize.Is4">
+                    @Title
+                </DisplayHeading>
+            </Column>
+        </Bar>
+    }
+    <CardBody>
+        @ChildContent
+    </CardBody>
+</Card>
+
+
+@code {
+
+    [Parameter] public RenderFragment? ChildContent { get; set; }
+    [Parameter] public IconName? HeaderIconName { get; set; }
+    [Parameter] public string Title { get; set; } = "";
+
+    private bool IsMobile = false;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            IsMobile = await JSRuntime.InvokeAsync<bool>("isDevice");
+        }
+        catch (JSDisconnectedException exc)
+        {
+            Console.WriteLine("Warning: JS DISCONNET");
+            Console.WriteLine(exc.StackTrace);
+            IsMobile = false;
+        }
+    }
+}

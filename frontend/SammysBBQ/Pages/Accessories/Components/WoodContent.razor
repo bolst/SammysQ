@@ -1,0 +1,94 @@
+@using SammysBBQ.Data
+@inject IJSRuntime JSRuntime
+
+<Grid Margin="Margin.IsAuto">
+    <Column ColumnSize="ColumnSize.Is1"></Column>
+    @if (IsMobile)
+    {
+        <Column ColumnSize="ColumnSize.Is10" TextAlignment="TextAlignment.Center">
+            <Div Position="Position.Relative.Top.Is50.Translate.MiddleY">
+                <Paragraph TextSize="TextSize.Large" TextColor="TextColor.Light">@WoodDescription</Paragraph>
+                <a href="@LinkDestination" target="blank"><Text TextColor="TextColor.Light">@LinkTitle</Text></a>
+                <br>
+                <br>
+                <Image Source="@WoodImage1" Fluid />
+                <br>
+                <br>
+                <Image Source="@WoodImage2" Fluid />
+                <br>
+                <br>
+                <Image Source="@WoodImage3" Fluid />
+                <br>
+                <br>
+                <Image Source="@WoodImage4" Fluid />
+            </Div>
+        </Column>
+    }
+    else
+    {
+        <Column ColumnSize="ColumnSize.Is5">
+            <Div Position="Position.Relative.Top.Is50.Translate.MiddleY">
+                <Paragraph TextSize="TextSize.Large" TextColor="TextColor.Light">@WoodDescription</Paragraph>
+                <a href="@LinkDestination" target="blank"><Text TextColor="TextColor.Light">@LinkTitle</Text></a>
+            </Div>
+        </Column>
+
+        <Column ColumnSize="ColumnSize.Is2">
+            <Div Position="Position.Relative.Top.Is50.Translate.MiddleY">
+                <Image Source="@WoodImage1" Fluid />
+            </Div>
+        </Column>
+        <Column ColumnSize="ColumnSize.Is2">
+            <Div Position="Position.Relative.Top.Is50.Translate.MiddleY">
+                <Image Source="@WoodImage2" Fluid />
+            </Div>
+        </Column>
+        <Column ColumnSize="ColumnSize.Is2">
+            <Div Position="Position.Relative.Top.Is50.Translate.MiddleY">
+                <Image Source="@WoodImage3" Fluid />
+
+                <br>
+                <br>
+
+                <Image Source="@WoodImage4" Fluid />
+            </Div>
+        </Column>
+    }
+    <Column ColumnSize="ColumnSize.Is1"></Column>
+</Grid>
+
+@code {
+    [Parameter] public JsonElement Data { get; set; }
+    private string WoodDescription = "Wood Description Wood Description Wood Description Wood Description Wood Description Wood Description Wood Description Wood Description Wood Description Wood Description Wood Description Wood Description Wood Description Wood Description Wood Description Wood Description Wood Description Wood Description";
+    private string WoodImage1 = ImageSources.WoodBagged1;
+    private string WoodImage2 = ImageSources.WoodBagged2;
+    private string WoodImage3 = ImageSources.WoodCloseup1;
+    private string WoodImage4 = ImageSources.WoodCloseup2;
+    private string LinkDestination = "https://www.mattswood.online/";
+    private string LinkTitle = "Matt's Smokin' Firewood - Premium Smoking Wood";
+
+
+    private bool IsMobile = false;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            IsMobile = await JSRuntime.InvokeAsync<bool>("isDevice");
+        }
+        catch (JSDisconnectedException exc)
+        {
+            Console.WriteLine("Warning: JS DISCONNET");
+            Console.WriteLine(exc.StackTrace);
+            IsMobile = false;
+        }
+
+        WoodDescription = Data.GetProperty("text").GetProperty("data").ToString();
+        WoodImage1 = Data.GetProperty("image 1").GetProperty("data").ToString();
+        WoodImage2 = Data.GetProperty("image 2").GetProperty("data").ToString();
+        WoodImage3 = Data.GetProperty("image 3").GetProperty("data").ToString();
+        WoodImage4 = Data.GetProperty("image 4").GetProperty("data").ToString();
+        LinkTitle = Data.GetProperty("link title").GetProperty("data").ToString();
+        LinkDestination = Data.GetProperty("link destination").GetProperty("data").ToString();
+    }
+}

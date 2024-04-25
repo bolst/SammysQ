@@ -1,0 +1,14 @@
+@namespace SammysBBQ.Pages.Pit_Master.Components
+
+<DisplayHeading TextColor="TextColor.Light" TextWeight="TextWeight.Normal" Size="DisplayHeadingSize.Is4">@ChildContent
+</DisplayHeading>
+
+@for (int i = 0; i < NewLines; i++)
+{
+    <br>
+}
+
+@code {
+    [Parameter] public RenderFragment? ChildContent { get; set; }
+    [Parameter] public int NewLines { get; set; } = 0;
+}

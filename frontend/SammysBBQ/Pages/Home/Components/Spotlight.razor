@@ -1,0 +1,91 @@
+﻿@using SammysBBQ.Data
+@inject IJSRuntime JSRuntime
+
+@if (IsMobile)
+{
+    <Div Class="spotlight-container" Border="Border.Rounded" Style="display: flex; align-items: center;">
+        <Column ColumnSize="ColumnSize.Is1"></Column>
+
+        <Column ColumnSize="ColumnSize.Is10" TextAlignment="TextAlignment.Center">
+
+
+            <DisplayHeading Size="DisplayHeadingSize.Is3" TextColor="TextColor.White" TextWeight="TextWeight.Bold">
+                @SpotlightText
+            </DisplayHeading>
+
+
+            <Figure Size="FigureSize.Is256x256">
+                <FigureImage Source="@SpotlightImage" />
+            </Figure>
+
+        </Column>
+
+        <Column ColumnSize="ColumnSize.Is1"></Column>
+    </Div>
+}
+else
+{
+    <Div Class="spotlight-container" Padding="Padding.Is4.FromBottom" Border="Border.Rounded">
+        <Div Style="display: flex; align-items: center;" Position="Position.Relative.Top.Is50.Translate.MiddleY">
+            <Column ColumnSize="ColumnSize.Is2"></Column>
+
+            <Column ColumnSize="ColumnSize.Is6" TextAlignment="TextAlignment.Center">
+
+                <DisplayHeading Size="DisplayHeadingSize.Is3" TextColor="TextColor.White" TextWeight="TextWeight.Bold"
+                    Padding="Padding.Is4.FromStart">@SpotlightText
+                </DisplayHeading>
+
+            </Column>
+
+            <Column ColumnSize="ColumnSize.Is3" TextAlignment="TextAlignment.Start">
+                <Figure Size="FigureSize.Is256x256">
+                    <FigureImage Source="@SpotlightImage" />
+                </Figure>
+            </Column>
+
+            <Column ColumnSize="ColumnSize.Is1"></Column>
+        </Div>
+    </Div>
+}
+<Style>
+    .spotlight-container {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("@SpotlightBackground");
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        align-items: center;
+        height: 70vh;
+    }
+</Style>
+
+@code {
+
+    private string SpotlightText = "Craving something yummy?\nYou've come to the right place";
+    private string SpotlightImage = ImageFactory.Instance.Logo(false);
+    private string SpotlightBackground = ImageSources.SteakBBQ;
+
+    private bool IsMobile { get; set; } = false;
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            IsMobile = await JSRuntime.InvokeAsync<bool>("isDevice");
+        }
+        catch (JSDisconnectedException exc)
+        {
+            Console.WriteLine("Warning: JS DISCONNET");
+            Console.WriteLine(exc.StackTrace);
+            IsMobile = false;
+        }
+
+        JsonDocument? data = await ApiDataFactory.Instance.Get(new List<string>() { "root", "home", "spotlight" });
+        if (data != null)
+        {
+            SpotlightText = data.RootElement.GetProperty("text").GetProperty("data").ToString();
+            SpotlightImage = data.RootElement.GetProperty("image").GetProperty("data").ToString();
+            SpotlightBackground = data.RootElement.GetProperty("background").GetProperty("data").ToString();
+        }
+
+    }
+
+}

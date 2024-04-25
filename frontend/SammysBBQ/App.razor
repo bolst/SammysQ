@@ -1,0 +1,60 @@
+﻿<Blazorise.ThemeProvider Theme="@theme">
+    <Router AppAssembly="typeof(App).Assembly">
+        <Found Context="routeData">
+            <RouteView RouteData="routeData" DefaultLayout="typeof(SammysBBQ.Layouts.MainLayout)" />
+        </Found>
+        <NotFound>
+            <p>Sorry, there's nothing at this address.</p>
+        </NotFound>
+    </Router>
+    <MessageProvider />
+    <PageProgressProvider />
+</Blazorise.ThemeProvider>
+
+
+@code {
+    private Theme theme = new()
+        {
+            BarOptions = new()
+            {
+                HorizontalHeight = "72px"
+            },
+            ColorOptions = new()
+            {
+                Primary = "#B20000",
+                Secondary = "#F0D952",
+                Success = "#00CC66",
+                Info = "#9FA4A9",
+                Warning = "#FF8C42",
+                Danger = "#B73535",
+                Light = "#F5F0F6",
+                Dark = "#211F20",
+            },
+            BackgroundOptions = new()
+            {
+                Primary = "#B20000",
+                Secondary = "#F0D952",
+                Success = "#00CC66",
+                Info = "#9FA4A9",
+                Warning = "#FF8C42",
+                Danger = "#B73535",
+                Light = "#F5F0F6",
+                Dark = "#211F20",
+            },
+            InputOptions = new()
+            {
+                CheckColor = "#B73535",
+            },
+            TextColorOptions = new()
+            {
+                Primary = "#B20000",
+                Secondary = "#F0D952",
+                Success = "#00CC66",
+                Info = "#9FA4A9",
+                Warning = "#FF8C42",
+                Danger = "#B73535",
+                Light = "#F5F0F6",
+                Dark = "#211F20",
+            },
+        };
+}

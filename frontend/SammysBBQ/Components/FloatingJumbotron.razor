@@ -1,0 +1,33 @@
+@inject NavigationManager NavManager
+
+<Jumbotron Width="@BoxWidth" Margin="Margin.IsAuto" Background="Background.Dark" Class="floating-jumbotron">
+
+    @if (Title != null)
+    {
+        <JumbotronTitle Size="JumbotronTitleSize.Is1">@Title</JumbotronTitle>
+        <Divider />
+    }
+
+    @ChildContent
+
+</Jumbotron>
+
+<Style>
+    .floating-jumbotron {
+        box-shadow: @BoxShadowStyle;
+    }
+</Style>
+
+@code {
+    [Parameter] public RenderFragment? ChildContent { get; set; }
+    [Parameter] public string? Title { get; set; }
+    [Parameter] public IFluentSizing BoxWidth { get; set; } = Width.Is75;
+    [Parameter] public Background ShadowColor { get; set; } = Background.Primary;
+    private string BoxShadowStyle = "var(--b-theme-primary) 0px 2px 12px 0px";
+
+    protected override void OnInitialized()
+    {
+        string themeAsCSSVar = $"var(--b-theme-{ShadowColor.Name})";
+        BoxShadowStyle = $"{themeAsCSSVar} 0px 2px 12px 0px";
+    }
+}

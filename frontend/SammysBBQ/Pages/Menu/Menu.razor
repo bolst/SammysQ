@@ -1,0 +1,61 @@
+﻿@page "/menu"
+@using SammysBBQ.Data
+@using SammysBBQ.Pages.Menu.Components
+
+<Div ElementId="#b-animate">
+    <Animate Anchor="#b-animate" Animation="Animations.ZoomIn" DelayMilliseconds="100"
+        style="max-width: 100%!important; height: auto; overflow: hidden!important;">
+
+        <Row Margin="Margin.IsAuto" RowColumns="RowColumns.Are1">
+            <Column TextAlignment="TextAlignment.Center">
+
+                <MenuImages />
+
+                @foreach (MenuContent content in MenuContents)
+                {
+                    <FloatingJumbotron Title="@content.title.data" ShadowColor="Background.Light">
+                        <UnorderedList Unstyled>
+                            @foreach (MenuItemContent item in content.items.data)
+                            {
+                                <MenuItem Content="@item" />
+                            }
+                        </UnorderedList>
+                    </FloatingJumbotron>
+
+                    <br>
+                }
+
+
+                <MenuOrderPrompt />
+
+            </Column>
+
+        </Row>
+
+    </Animate>
+</Div>
+
+
+@code {
+
+    private MenuContent DefaultMenuContent = new MenuContent()
+        {
+            title = new MenuContentRoot() { data = "BBQ Menu" },
+            items = new MenuItemContentRoot() { data = MenuItemFactory.Instance.DefaultBBQMenuItems() }
+        };
+    private List<MenuContent> MenuContents = new List<MenuContent>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        JsonDocument? data = await ApiDataFactory.Instance.Get(new List<string>() { "root", "menu", "menus" });
+        if (data != null)
+        {
+            var d = data.RootElement;
+            MenuContents = JsonSerializer.Deserialize<List<MenuContent>>(d);
+        }
+        else
+        {
+            MenuContents = new List<MenuContent>() { DefaultMenuContent };
+        }
+    }
+}

@@ -1,0 +1,53 @@
+@using SammysBBQ.Data
+
+<Grid Columns="GridColumns.Are12.OnTablet.Are8.OnMobile" ElementId="#b-animater">
+    <Column ColumnSize="ColumnSize.Is8">
+        <Jumbotron Background="Background.Info" Margin="Margin.Is4.OnY"
+            Style="box-shadow: var(--b-theme-primary) 0px 0px 5px 0px;">
+            <DisplayHeading Size="DisplayHeadingSize.Is4" TextWeight="TextWeight.Bold" TextColor="TextColor.Primary">
+                @Title
+            </DisplayHeading>
+            <JumbotronSubtitle TextWeight="TextWeight.Normal">
+                @Description
+            </JumbotronSubtitle>
+            <DefaultButton To="/menu">
+                @ButtonText
+                <Icon Name="IconName.ArrowRight" />
+            </DefaultButton>
+        </Jumbotron>
+    </Column>
+    <Column ColumnSize="ColumnSize.Is2.OnTablet.Is4.OnMobile">
+        <Card Position="Position.Relative.Top.Is50.Start.Is50.Translate.Middle" Background="Background.Dark">
+            <CardImage Source="@ImageSource1" Border="Border.Rounded" Fluid />
+        </Card>
+    </Column>
+    <Column ColumnSize="ColumnSize.Is2.OnTablet.Is4.OnMobile">
+        <Card Position="Position.Relative.Top.Is50.Start.Is50.Translate.Middle" Background="Background.Dark">
+            <CardImage Source="@ImageSource2" Border="Border.Rounded"
+                Fluid />
+        </Card>
+    </Column>
+</Grid>
+
+@code{
+    private string Title = "Delivering Perfection";
+    private string Description = "From corporate gatherings and weddings to backyard bashes and upscale soirées, Sammy's Q adapts to any occasion. Our diverse menu caters to all tastes, offering a tantalizing array of grilled delights, sides, and desserts that promise to satisfy every palate.";
+    private string ButtonText = "CHECK OUT OUR MENU";
+    private string ImageSource1 = ImageFactory.Instance.Square(ImageSources.SteakTacos);
+    private string ImageSource2 = ImageFactory.Instance.Square(ImageSources.PulledLambCut1);
+
+    protected override async Task OnInitializedAsync()
+    {
+        JsonDocument? data = await ApiDataFactory.Instance.Get(new List<string>() { "root", "home", "card picture combo"});
+        
+        if (data != null)
+        {
+            Title = data.RootElement.GetProperty("title").GetProperty("data").ToString();
+            Description = data.RootElement.GetProperty("description").GetProperty("data").ToString();
+            ButtonText = data.RootElement.GetProperty("button text").GetProperty("data").ToString();
+            ImageSource1 = data.RootElement.GetProperty("image 1").GetProperty("data").ToString();
+            ImageSource2 = data.RootElement.GetProperty("image 2").GetProperty("data").ToString();
+        }
+    }
+
+}

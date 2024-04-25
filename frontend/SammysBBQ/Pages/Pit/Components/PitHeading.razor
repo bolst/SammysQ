@@ -1,0 +1,7 @@
+@namespace SammysBBQ.Pages.Pit.Components
+
+<Heading TextColor="TextColor.Light" TextSize="TextSize.Heading1">@ChildContent</Heading>
+
+@code {
+    [Parameter] public RenderFragment? ChildContent { get; set; }
+}

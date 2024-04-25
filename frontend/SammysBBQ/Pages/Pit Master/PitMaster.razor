@@ -1,0 +1,83 @@
+@page "/pit-master"
+@using SammysBBQ.Data
+@using SammysBBQ.Pages.Pit_Master.Components
+@inject IJSRuntime JSRuntime
+
+
+<Div ElementId="#b-animate">
+    <Animate Anchor="#b-animate" Animation="Animations.ZoomIn" DelayMilliseconds="100"
+        style="max-width: 100%!important; height: auto; overflow: hidden!important;">
+        <Grid>
+            <Column ColumnSize="ColumnSize.Is1"></Column>
+            @if(IsMobile)
+            {
+                <Column ColumnSize="ColumnSize.Is10" TextAlignment="TextAlignment.Center">
+                        <PitHeader NewLines="2">@IntroHeader</PitHeader>
+
+                        <Image Source="@IntroImage" Fluid />
+
+                        <br>
+                        <br>
+
+                        @foreach(string paragraph in IntroParagraph.Split(new string[]{"\n", "\r", "\r\n"}, StringSplitOptions.None))
+                        {
+                            <PitParagraph>@paragraph</PitParagraph>
+                        }
+
+                </Column>
+            }
+            else
+            {
+                <Column ColumnSize="ColumnSize.Is3">
+                    <Div>
+                        <Image Source="@IntroImage" Fluid />
+                    </Div>
+                </Column>
+                <Column ColumnSize="ColumnSize.Is7" TextAlignment="TextAlignment.Center">
+                    <Div Position="Position.Relative.Top.Is50.Translate.MiddleY">
+
+                        <PitHeader NewLines="2">@IntroHeader</PitHeader>
+
+                        @foreach(string paragraph in IntroParagraph.Split(new string[]{"\n", "\r", "\r\n"}, StringSplitOptions.None))
+                        {
+                            <PitParagraph>@paragraph</PitParagraph>
+                        }
+
+                    </Div>
+                </Column>
+            }
+            <Column ColumnSize="ColumnSize.Is1"></Column>
+        </Grid>
+    </Animate>
+</Div>
+
+@code{
+    private string IntroHeader = "MEET THE PIT MASTER - SAM SCALA";
+    private string IntroParagraph = "Sam does this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and\nSam also does this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and\nSam also does this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and";
+    private string IntroImage = ImageSources.SammyWolfhead;
+
+    private bool IsMobile { get; set; } = false;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            IsMobile = await JSRuntime.InvokeAsync<bool>("isDevice");
+        }
+        catch (JSDisconnectedException exc)
+        {
+            Console.WriteLine("Warning: JS DISCONNET");
+            Console.WriteLine(exc.StackTrace);
+            IsMobile = false;
+        }
+
+        JsonDocument? data = await ApiDataFactory.Instance.Get(new List<string>() { "root", "pit master" });
+
+        if (data != null)
+        {
+            IntroHeader = data.RootElement.GetProperty("blurb 1").GetProperty("title").GetProperty("data").ToString();
+            IntroParagraph = data.RootElement.GetProperty("blurb 1").GetProperty("paragraph").GetProperty("data").ToString();
+            IntroImage = data.RootElement.GetProperty("blurb 1").GetProperty("image").GetProperty("data").ToString();
+        }
+    }
+}

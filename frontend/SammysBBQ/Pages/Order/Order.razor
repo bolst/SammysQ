@@ -1,0 +1,44 @@
+﻿@page "/order"
+@using SammysBBQ.Data
+@using SammysBBQ.Pages.Order.Components
+
+<Div ElementId="#b-animate">
+    <Animate Anchor="#b-animate" Animation="Animations.ZoomIn" DelayMilliseconds="100">
+
+        <FloatingJumbotron ShadowColor="Background.Secondary">
+            <JumbotronSubtitle Padding="Padding.Is4.FromBottom" TextAlignment="TextAlignment.Center">@Header
+            </JumbotronSubtitle>
+
+            <Divider />
+
+            <SocialLink Type="SocialType.Facebook" />
+
+            <Divider />
+
+            <SocialLink Type="SocialType.Instagram" />
+
+            <Divider />
+
+            <SocialLink Type="SocialType.Email" />
+        </FloatingJumbotron>
+
+    </Animate>
+</Div>
+
+<br>
+<br>
+
+@code {
+
+    private string Header = "Reach out to us for more information on how we can help make your next event one to remember";
+
+    protected override async Task OnInitializedAsync()
+    {
+        JsonDocument? data = await ApiDataFactory.Instance.Get(new List<string>() { "root", "order" });
+
+        if (data != null)
+        {
+            Header = data.RootElement.GetProperty("header").GetProperty("data").ToString();
+        }
+    }
+}

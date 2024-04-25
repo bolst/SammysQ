@@ -1,0 +1,73 @@
+﻿@inject IJSRuntime JSRuntime
+
+<Blazorise.Link To="@socialLinkDestination" Target="Target.Blank" Style="text-decoration: none;">
+    <Grid Columns="GridColumns.Are12.OnTablet.Are1.OnMobile">
+
+        @if (IsMobile)
+        {
+            <Column ColumnSize="ColumnSize.Is1" TextAlignment="TextAlignment.Center">
+                <Div Position="Position.Relative.Top.Is50.Translate.MiddleY">
+                    <Figure Size="@SocialLogoSize">
+                        <FigureImage Source="@socialLogoSource" />
+                    </Figure>
+                    <Lead TextColor="TextColor.White" TextWeight="TextWeight.Bold" TextOverflow="TextOverflow.Wrap">
+                        @socialName
+                    </Lead>
+                </Div>
+            </Column>
+        }
+        else
+        {
+            <Column ColumnSize="ColumnSize.Is5.OnTablet.Is1.OnMobile" TextAlignment="TextAlignment.End">
+                <Figure Size="@SocialLogoSize" Position="Position.Relative.Top.Is50.Translate.MiddleY">
+                    <FigureImage Source="@socialLogoSource" />
+                </Figure>
+            </Column>
+
+            <Column ColumnSize="ColumnSize.Is3.OnTablet.Is5.OnMobile" TextAlignment="TextAlignment.Center">
+                <Lead TextColor="TextColor.White" TextWeight="TextWeight.Bold"
+                    Position="Position.Relative.Top.Is50.Translate.MiddleY" TextOverflow="TextOverflow.Wrap">
+                    @socialName
+                </Lead>
+            </Column>
+
+        }
+
+        <Column ColumnSize="ColumnSize.Is1.OnTablet" />
+
+    </Grid>
+</Blazorise.Link>
+
+@code {
+
+    #region Parameters
+    [Parameter] public SocialType Type { get; set; } = SocialType.Instagram;
+    #endregion
+
+    private FigureSize SocialLogoSize = FigureSize.Is64x64;
+
+    private string socialLogoSource = "img/socials/instagram.png";
+    private string socialName = "Instagram";
+    private string socialLinkDestination = "https://www.instagram.com/sammys.q.bbq";
+
+    private bool IsMobile { get; set; } = false;
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            IsMobile = await JSRuntime.InvokeAsync<bool>("isDevice");
+        }
+        catch (JSDisconnectedException exc)
+        {
+            Console.WriteLine("Warning: JS DISCONNET");
+            Console.WriteLine(exc.StackTrace);
+            IsMobile = false;
+        }
+
+        socialLogoSource = SocialTypeExtensions.Source(Type);
+        socialName = await SocialTypeExtensions.Name(Type);
+        socialLinkDestination = await SocialTypeExtensions.Link(Type);
+    }
+
+
+}

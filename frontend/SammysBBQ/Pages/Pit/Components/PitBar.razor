@@ -1,0 +1,53 @@
+@using SammysBBQ.Data
+
+<Row Class="pit-bar">
+    <Column TextAlignment="TextAlignment.Center">
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <DisplayHeading Size="DisplayHeadingSize.Is1" TextWeight="TextWeight.Bold" TextColor="TextColor.Dark"
+            Padding="Padding.Is4.OnY">@HeadingText</DisplayHeading>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+    </Column>
+</Row>
+
+<br>
+<br>
+
+<Style>
+    .pit-bar {
+        background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(@BackgroundImage);
+        background-size: cover;
+        background-position: 50% 60%;
+    }
+</Style>
+
+
+
+@code {
+    private string BackgroundImage = ImageSources.BBQLogo;
+    private string HeadingText = "Welcome to the Pit";
+
+    protected override async Task OnInitializedAsync()
+    {
+        JsonDocument? data = await ApiDataFactory.Instance.Get(new List<string>() { "root", "pit" });
+
+        if (data != null)
+        {
+            BackgroundImage = data.RootElement.GetProperty("header").GetProperty("background image").GetProperty("data").ToString();
+            HeadingText = data.RootElement.GetProperty("header").GetProperty("text").GetProperty("data").ToString();
+        }
+    }
+
+
+}

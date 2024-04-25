@@ -1,0 +1,239 @@
+{
+    "root": {
+        "home": {
+            "spotlight": {
+                "text": {
+                    "data": "Craving something yummy?\nYou've come to the right place"
+                },
+                "image": {
+                    "data": "img/logo-nobkg.png"
+                },
+                "background": {
+                    "data": "img/steak-bbq.jpg"
+                }
+            },
+            "card picture combo": {
+                "title": {
+                    "data": "Delivering Perfection"
+                },
+                "description": {
+                    "data": "From corporate gatherings and weddings to backyard bashes and upscale soirees, Sammy's Q adapts to any occasion. Our diverse menu caters to all tastes, offering a tantalizing array of grilled delights, sides, and desserts that promise to satisfy every palate."
+                },
+                "button text": {
+                    "data": "CHECK OUT OUR MENU"
+                },
+                "image 1": {
+                    "data": "img/steak-tacos-square.jpg"
+                },
+                "image 2": {
+                    "data": "img/pulled-lamb-cut-1-square.jpg"
+                }
+            },
+            "flyers": {
+                "flyer 1": {
+                    "data": "img/sammys-flyer.jpg"
+                },
+                "flyer 2": {
+                    "data": "img/catering-flyer.jpg"
+                }
+            },
+            "order prompt": {
+                "button text": {
+                    "data": "ORDER NOW"
+                }
+            }
+        },
+        "menu": {
+            "image 1": {
+                "data": "img/pulled-pork-sandwich.jpg"
+            },
+            "image 2": {
+                "data": "img/pulled-lamb-bbq.jpg"
+            },
+            "image 3": {
+                "data": "img/sausages.jpg"
+            },
+            "menus": [
+                {
+                    "title": {
+                        "data": "BBQ Menu"
+                    },
+                    "items": {
+                        "data": [
+                            {
+                                "ItemName": "Brisket",
+                                "ItemImagePath": "",
+                                "Description": ""
+                            },
+                            {
+                                "ItemName": "Pulled Pork",
+                                "ItemImagePath": "",
+                                "Description": ""
+                            },
+                            {
+                                "ItemName": "Lamb",
+                                "ItemImagePath": "img/pulled-lamb-cut-1.jpg",
+                                "Description": "Indulge in the irresistible flavors of our slow-cooked pulled pork, a culinary masterpiece that promises to tantalize your taste buds with every savory bite. Crafted with care and expertise, our pulled pork is a celebration of tender, succulent meat infused with a symphony of seasonings and spices. Hand - selected pork shoulder is meticulously prepared and cooked to perfection over a low flame, allowing the rich flavors to develop and meld harmoniously.As the meat tenderizes, it absorbs the essence of our secret blend of spices, creating a mouthwatering symphony of taste that is both bold and nuanced."
+                            },
+                            {
+                                "ItemName": "Beef",
+                                "ItemImagePath": "img/beef-ribs.jpg",
+                                "Description": ""
+                            },
+                            {
+                                "ItemName": "Chicken",
+                                "ItemImagePath": "img/chicken-wings.jpg",
+                                "Description": ""
+                            },
+                            {
+                                "ItemName": "Beef/Pork Ribs",
+                                "ItemImagePath": "img/stlouis-ribs-2.jpg",
+                                "Description": ""
+                            },
+                            {
+                                "ItemName": "Fish (Rainbow Trout, Salmon)",
+                                "ItemImagePath": "",
+                                "Description": ""
+                            }
+                        ]
+                    }
+                }
+            ],
+            "footer": {
+                "lead": {
+                    "data": "See something you like?"
+                },
+                "button text": {
+                    "data": "Order now"
+                }
+            }
+        },
+        "order": {
+            "header": {
+                "data": "Reach out to us for more information on how we can help make your next event one to remember"
+            }
+        },
+        "pit": {
+            "header": {
+                "background image": {
+                    "data": "img/bbq-logo.jpg"
+                },
+                "text": {
+                    "data": "Welcome to the Pit"
+                }
+            },
+            "blurb 1": {
+                "title": {
+                    "data": "Title 1"
+                },
+                "paragraph": {
+                    "data": "500 Gallon Trailered Offset Smoker (built by Bog Line BBQ)"
+                },
+                "image": {
+                    "data": "img/bbq-sideview.jpg"
+                },
+                "image caption": {
+                    "data": "Bog Line BBQ - 500 Gallon Trailered Offset Smoker"
+                }
+            },
+            "blurb 2": {
+                "title": {
+                    "data": "Another Header"
+                },
+                "paragraph": {
+                    "data": "Bunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other wordsBunch of other words"
+                },
+                "image": {
+                    "data": "img/bbq-logo.jpg"
+                },
+                "image caption": {
+                    "data": ""
+                }
+            },
+            "Image Triplet": {
+                "image 1": {
+                    "data": "img/bbq-outside-day.jpg"
+                },
+                "image 2": {
+                    "data": "img/bbq-topview.jpg"
+                },
+                "image 3": {
+                    "data": "img/bbq-outside-night.jpg"
+                }
+            }
+        },
+        "accessories": {
+            "header": {
+                "image": {
+                    "data": "img/coal-wood-group.jpg"
+                },
+                "text": {
+                    "data": "Description of accessories Description of accessories Description of accessories Description of accessories Description of accessories Description of accessories Description of accessories Description of accessories Description of accessories Description of accessories Description of accessories Description of accessories Description of accessories Description of accessories Description of accessories Description of accessories"
+                }
+            },
+            "wood": {
+                "title": {
+                    "data": "Matt's Smokin' Firewood - Premium Smoking Wood"
+                },
+                "content": {
+                    "text": {
+                        "data": "Wood Description Wood Description Wood Description Wood Description Wood Description Wood Description Wood Description Wood Description Wood Description Wood Description Wood Description Wood Description Wood Description Wood Description Wood Description Wood Description Wood Description Wood Description"
+                    },
+                    "image 1": {
+                        "data": "img/wood-bagged1.jpg"
+                    },
+                    "image 2": {
+                        "data": "img/wood-bagged2.jpg"
+                    },
+                    "image 3": {
+                        "data": "img/wood-closeup1.jpg"
+                    },
+                    "image 4": {
+                        "data": "img/wood-closeup2.jpg"
+                    },
+                    "link title": {
+                        "data": "Matt's Smokin' Firewood - Premium Smoking Wood"
+                    },
+                    "link destination": {
+                        "data": "https://www.mattswood.online/"
+                    }
+                }
+            },
+            "coal": {
+                "title": {
+                    "data": "Bog Line Bush Coal"
+                },
+                "content": {
+                    "text": {
+                        "data": "Coal Description Coal Description Coal Description Coal Description Coal Description Coal Description Coal Description Coal Description Coal Description Coal Description Coal Description Coal Description Coal Description Coal Description Coal Description Coal Description Coal Description Coal Description"
+                    },
+                    "image 1": {
+                        "data": "img/bush-coal.jpg"
+                    },
+                    "image 2": {
+                        "data": "img/bush-coal-closeup.jpg"
+                    },
+                    "link title": {
+                        "data": "Bog Line Bush Coal Premium Charcoal"
+                    },
+                    "link destination": {
+                        "data": "https://www.instagram.com/reel/C4jlxpAugNS/"
+                    }
+                }
+            }
+        },
+        "pit master": {
+            "blurb 1": {
+                "title": {
+                    "data": "MEET THE PIT MASTER - SAM SCALA"
+                },
+                "paragraph": {
+                    "data": "Sam does this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and\nSam also does this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and\nSam also does this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and this and that and"
+                },
+                "image": {
+                    "data": "img/sammy-wolfhead.jpg"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+﻿@page "/"
+@using SammysBBQ.Pages.Home.Components
+
+<Div ElementId="#b-animate">
+    <Animate Anchor="#b-animate" Animation="Animations.ZoomIn" DelayMilliseconds="100"
+        style="max-width: 100%!important; height: auto; overflow: hidden!important;">
+
+        <Spotlight />
+
+        <CardPictureCombo />
+
+        <Flyers />
+
+        <OrderPrompt />
+    </Animate>
+</Div>

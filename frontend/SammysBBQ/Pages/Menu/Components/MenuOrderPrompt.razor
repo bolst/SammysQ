@@ -1,0 +1,26 @@
+﻿@using SammysBBQ.Data
+
+<Container Fluid Padding="Padding.Is4.FromTop">
+
+    <Heading TextColor="TextColor.White">@Lead</Heading>
+    <DefaultButton To="/order">@ButtonText
+        <Icon Name="IconName.ArrowRight" />
+    </DefaultButton>
+
+</Container>
+
+@code {
+
+    private string Lead = "See something you like?";
+    private string ButtonText = "Order Now";
+
+    protected override async Task OnInitializedAsync()
+    {
+        JsonDocument? data = await ApiDataFactory.Instance.Get(new List<string>() { "root", "menu", "footer" });
+        if (data != null)
+        {
+            Lead = data.RootElement.GetProperty("lead").GetProperty("data").ToString();
+            ButtonText = data.RootElement.GetProperty("button text").GetProperty("data").ToString();
+        }
+    }
+}

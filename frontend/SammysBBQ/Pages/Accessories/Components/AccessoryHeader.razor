@@ -1,0 +1,55 @@
+@namespace SammysBBQ.Pages.Accessories.Components
+@using SammysBBQ.Data
+@inject IJSRuntime JSRuntime
+
+<Grid Margin="Margin.IsAuto">
+    <Column ColumnSize="ColumnSize.Is2"></Column>
+    @if (IsMobile)
+    {
+        <Column ColumnSize="ColumnSize.Is8" TextAlignment="TextAlignment.Center">
+           <Paragraph TextSize="TextSize.ExtraLarge" TextColor="TextColor.Light">@ParagraphText</Paragraph>;
+            <FancyImage Source="@ImageSource" />
+        </Column>
+    }
+    else
+    {
+        <Column ColumnSize="ColumnSize.Is5" TextAlignment="TextAlignment.Center">
+            <Div Position="Position.Relative.Top.Is50.Translate.MiddleY">
+                <Paragraph TextSize="TextSize.ExtraLarge" TextColor="TextColor.Light">@ParagraphText</Paragraph>;
+            </Div>
+        </Column>
+        <Column ColumnSize="ColumnSize.Is3" TextAlignment="TextAlignment.Center">
+            <FancyImage Source="@ImageSource" />
+        </Column>
+    }
+    <Column ColumnSize="ColumnSize.Is2"></Column>
+</Grid>
+
+@code {
+
+    private bool IsMobile = false;
+    private string ParagraphText = "Description of accessories Description of accessories Description of accessories Description of accessories Description of accessories Description of accessories Description of accessories Description of accessories Description of accessories Description of accessories Description of accessories Description of accessories Description of accessories Description of accessories Description of accessories Description of accessories";
+    private string ImageSource = ImageSources.CoalWoodGroup;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            IsMobile = await JSRuntime.InvokeAsync<bool>("isDevice");
+        }
+        catch (JSDisconnectedException exc)
+        {
+            Console.WriteLine("Warning: JS DISCONNET");
+            Console.WriteLine(exc.StackTrace);
+            IsMobile = false;
+        }
+
+        JsonDocument? data = await ApiDataFactory.Instance.Get(new List<string>() { "root", "accessories" });
+
+        if (data != null)
+        {
+            ParagraphText = data.RootElement.GetProperty("header").GetProperty("text").GetProperty("data").ToString();
+            ImageSource = data.RootElement.GetProperty("header").GetProperty("image").GetProperty("data").ToString();
+        }
+    }
+}

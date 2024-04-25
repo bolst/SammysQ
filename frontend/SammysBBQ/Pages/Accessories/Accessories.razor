@@ -1,0 +1,62 @@
+@page "/accessories"
+@using SammysBBQ.Data
+@using SammysBBQ.Pages.Accessories.Components
+@inject IJSRuntime JSRuntime
+
+<Div ElementId="#b-animate">
+    <Animate Anchor="#b-animate" Animation="Animations.ZoomIn" DelayMilliseconds="100"
+        style="max-width: 100%!important; height: auto; overflow: hidden!important;">
+
+        <AccessoryHeader />
+
+        <br>
+        <br>
+
+        <AccessoryModule Title="@CoalTitle" HeaderIconName="IconName.Fire">
+            <CoalContent Data="@CoalData" />
+        </AccessoryModule>
+
+        <br>
+        <br>
+
+        <AccessoryModule Title="@WoodTitle" HeaderIconName="IconName.Bars">
+            <WoodContent Data="@WoodData" />
+        </AccessoryModule>
+
+    </Animate>
+</Div>
+
+<br>
+
+@code {
+
+    private string CoalTitle = "Bog Line Bush Coal";
+    private string WoodTitle = "Matt's Smokin' Firewood - Premium Smoking Wood";
+    private JsonElement CoalData = AccessoryDataFactory.Instance.DefaultCoalData();
+    private JsonElement WoodData = AccessoryDataFactory.Instance.DefaultWoodData();
+
+    private bool IsMobile { get; set; } = false;
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            IsMobile = await JSRuntime.InvokeAsync<bool>("isDevice");
+        }
+        catch (JSDisconnectedException exc)
+        {
+            Console.WriteLine("Warning: JS DISCONNET");
+            Console.WriteLine(exc.StackTrace);
+            IsMobile = false;
+        }
+
+
+        JsonDocument? data = await ApiDataFactory.Instance.Get(new List<string>() { "root", "accessories" });
+        if (data != null)
+        {
+            CoalTitle = data.RootElement.GetProperty("coal").GetProperty("title").GetProperty("data").ToString();
+            WoodTitle = data.RootElement.GetProperty("wood").GetProperty("title").GetProperty("data").ToString();
+            CoalData = data.RootElement.GetProperty("coal").GetProperty("content");
+            WoodData = data.RootElement.GetProperty("wood").GetProperty("content");
+        }
+    }
+}
