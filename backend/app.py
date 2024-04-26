@@ -96,7 +96,7 @@ def _try():
 
 @app.route('/validate', methods=['POST'])
 def validate():
-    v = Validator('users.json')
+    v = Validator(os.path.join(DIR,'users.json'))
     name = request.json['name']
     pswd = request.json['password']
     if v.validate(name=name, pswd=pswd):
