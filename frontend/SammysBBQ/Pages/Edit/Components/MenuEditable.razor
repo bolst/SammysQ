@@ -1,31 +1,136 @@
 ﻿@using SammysBBQ.Data
 @inject NavigationManager NavManager
 
-@foreach(MenuItemContent menuItem in Data)
-{
-    <Card Background="Background.Dark" Border="Border.Is1.Rounded.Light" Width="Width.Is75" Margin="Margin.IsAuto">
-        <CardBody>
 
-            <Heading TextColor="TextColor.White">Title</Heading>
-            <StringEditable Breadcrumb="@Breadcrumb" Data="@menuItem.ItemName" ShowBreadcrumb=false />
+<Breadcrumb>
+    @foreach (string s in Breadcrumb)
+    {
+        <BreadcrumbItem>
+            <BreadcrumbLink TextColor="TextColor.Secondary">@s</BreadcrumbLink>
+        </BreadcrumbItem>
+    }
+</Breadcrumb>
 
-            <Divider />
+<Row>
+    <Column ColumnSize="ColumnSize.Is10">
+        @{
+                for(int i = 0; i < Data.Count(); i++)
+                { 
+                int j = i;
+                MenuItemContent menuItem = Data.ElementAt(j);
+                    <Card Background="Background.Dark" Border="Border.Is1.Rounded.Light" Width="Width.Is100" Margin="Margin.IsAuto">
+            <CardBody>
+                <Row>
+                     <Column ColumnSize="ColumnSize.Is1">
+                        @{
+                            <Button Color="Color.Danger" Clicked="() => OnClickedRemoveMenuItem(j)"><Icon Name="IconName.MinusSquare"/></Button>
+                        }
+                    </Column>
+                     <Column ColumnSize="ColumnSize.Is3">
+                        <Heading TextColor="TextColor.White">Title</Heading>
+                    </Column>
+                    <Column ColumnSize="ColumnSize.Is8">
+                        <MemoEdit @bind-Text="@menuItem.ItemName" AutoSize />
+                     </Column>
+                </Row>
 
-            <ImageEditable Breadcrumb="@Breadcrumb" Data="@menuItem.ItemImagePath" AvailableImages="@AvailableImages" ShowBreadcrumb=false />
+                <br>
 
-            <Divider />
+                 <Row>
+                     <Column ColumnSize="ColumnSize.Is1"></Column>
+                     <Column ColumnSize="ColumnSize.Is3">
+                         <Heading TextColor="TextColor.White">Image</Heading>
+                     </Column>
+                     <Column ColumnSize="ColumnSize.Is4">
+                         <Select TValue="string" @bind-SelectedValue="@menuItem.ItemImagePath">
+                             <SelectItem Value="@("None")">None</SelectItem>
+                             @foreach (string availableImage in AvailableImages)
+                            {
+                                <SelectItem Value="@availableImage">@availableImage</SelectItem>
+                            }
+                        </Select>
+                    </Column>
+                    <Column ColumnSize="ColumnSize.Is4">
+                        <Figure Size="FigureSize.Is128x128">
+                            <FigureImage Source="@menuItem.ItemImagePath" />
+                        </Figure>
+                    </Column>
+                </Row>
+
+                <br>
              
-            <Heading TextColor="TextColor.White">Description</Heading>
-            <StringEditable Breadcrumb="@Breadcrumb" Data="@menuItem.Description" ShowBreadcrumb=false />
+                 <Row>
+                     <Column ColumnSize="ColumnSize.Is1"></Column>
+                     <Column ColumnSize="ColumnSize.Is3">
+                        <Heading TextColor="TextColor.White">Description</Heading>
+                     </Column>
+                     <Column ColumnSize="ColumnSize.Is8">
+                         <MemoEdit @bind-Text="@menuItem.Description" AutoSize />
+                     </Column>
+                 </Row>
+            </CardBody>
+        </Card>
 
-        </CardBody>
-    </Card>
-
-    <br />
+        <br />
+    }
 }
+<Button Color="Color.Warning" Clicked="@OnClickedAddMenuItem"><Icon Name="IconName.PlusSquare"/></Button>
+    </Column>
+    <Column ColumnSize="ColumnSize.Is2">
+        @if (Confirmed)
+        {
+            <Button Color="Color.Success" Clicked="@OnClickedUpdateData">Confirm Update</Button>
+        }
+        else
+        {
+            <Button Color="Color.Info" Clicked="@OnClickedConfirm">Update</Button>
+        }
+    </Column>
+</Row>
 
 @code {
     [Parameter] public List<string> Breadcrumb { get; set; } = new();
     [Parameter] public List<MenuItemContent> Data { get; set; } = new();
     [Parameter] public List<string> AvailableImages { get; set; } = new();
+
+    private bool Confirmed = false;
+
+    async Task OnClickedUpdateData()
+    {
+        List<string> b = new List<string>(Breadcrumb);
+        b.Insert(0, "root");
+        foreach (MenuItemContent content in Data)
+        {
+            if (content.ItemImagePath.Equals("None"))
+                content.ItemImagePath = content.ItemImagePath.Replace("None", "");
+        }
+        await ApiDataFactory.Instance.Set(Data, b);
+        NavManager.NavigateTo("/edit", true);
+    }
+
+    Task OnClickedConfirm()
+    {
+        Confirmed = true;
+        StateHasChanged();
+        return Task.CompletedTask;
+    }
+
+    Task OnClickedAddMenuItem()
+    {
+        Data.Add(new MenuItemContent
+        {
+            ItemName = "",
+            ItemImagePath = "",
+            Description = ""
+        });
+        StateHasChanged();
+        return Task.CompletedTask;
+    }
+
+    Task OnClickedRemoveMenuItem(int idx)
+    {
+        Data.RemoveAt(idx);
+        StateHasChanged();
+        return Task.CompletedTask;
+    }
 }

@@ -1,3 +1,5 @@
+using System.Text.Json.Serialization;
+
 namespace SammysBBQ.Data
 {
 
@@ -9,8 +11,11 @@ namespace SammysBBQ.Data
 
     public class MenuItemContent
     {
+        [JsonPropertyName("ItemName")]
         public string ItemName { get; set; }
+        [JsonPropertyName("ItemImagePath")]
         public string? ItemImagePath { get; set; }
+        [JsonPropertyName("Description")]
         public string? Description { get; set; }
     }
 

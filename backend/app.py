@@ -49,14 +49,17 @@ def set_():
     for l in [l1, l2, l3, l4, l5]:
         if l != None:
             li.append(l)
+    # convert numeric values to integer
+    li = [int(l) if l.isnumeric() else l for l in li]
 
     retval = content.copy()
 
     for l in li:
-        if l not in content:
-            print('SET: returning no key found')
+        if not str(l).isnumeric() and l not in content:
+            print(f'SET: returning no key found (key={l})')
             return 'no key found'
         content = content[l]
+        print(f'-> {l}')
 
     new_content = request.json
     print("\n\n\n", new_content)

@@ -97,6 +97,7 @@ namespace SammysBBQ.Pages.Edit
 
         void EnumerateMenus(List<string> breadcrumb, JsonProperty node)
         {
+            int index = 0;
             foreach(JsonElement menuNode in node.Value.EnumerateArray())
             {
                 var ttb = new List<string>(breadcrumb)
@@ -118,10 +119,13 @@ namespace SammysBBQ.Pages.Edit
                 }
                 var tmb = new List<string>(breadcrumb)
                 {
+                    index.ToString(),
                     "items"
                 };
                 var menuDataToAdd = new Dictionary<List<string>, List<MenuItemContent>> { { tmb, menuItemsToAdd } };
                 MenuEditableData.Add(menuDataToAdd);
+
+                ++index;
             }
         }
 

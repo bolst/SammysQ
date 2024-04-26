@@ -6,7 +6,7 @@ namespace SammysBBQ.Auth
     public static class AuthApi
     {
 
-        private static readonly string BASE_URL = "http://127.0.0.1:5000";
+        private static readonly string BASE_URL = Environment.GetEnvironmentVariable("DB_HOST_URL") ?? "";
 
         private static HttpClient httpClient = new HttpClient();
 

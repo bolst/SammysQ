@@ -5,8 +5,7 @@ namespace SammysBBQ.Data
     public class ApiDataFactory : AbsSingleton<ApiDataFactory>
     {
 
-        private const bool DEV = true;
-        private const string BASE_ENDPOINT = DEV ? "http://127.0.0.1:5000" : "";
+        private readonly string BASE_ENDPOINT = Environment.GetEnvironmentVariable("DB_HOST_URL")??"";
         private readonly HttpClient Http;
 
         public ApiDataFactory()
@@ -52,6 +51,31 @@ namespace SammysBBQ.Data
         }
 
         public async Task<bool> Set(string newData, List<string>? l = null)
+        {
+            string url = BASE_ENDPOINT + "/set?";
+
+            if (l != null)
+            {
+                for (int i = 0; i < l.Count(); i++)
+                {
+                    string li = l[i];
+                    url += $"l{i + 1}={li}&";
+                }
+            }
+
+            try
+            {
+                var response = await Http.PostAsJsonAsync(url, newData);
+                response.EnsureSuccessStatusCode();
+                return await response.Content.ReadAsStringAsync() == "success";
+            }
+            catch (Exception exc)
+            {
+                return false;
+            }
+        }        
+        
+        public async Task<bool> Set(List<MenuItemContent> newData, List<string>? l = null)
         {
             string url = BASE_ENDPOINT + "/set?";
 
