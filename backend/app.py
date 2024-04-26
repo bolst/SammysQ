@@ -58,25 +58,37 @@ def set_():
             return 'no key found'
         content = content[l]
 
-    new_content = request.form.get('new_content')
+    new_content = request.json
+    print("\n\n\n", new_content)
 
     if len(li) == 0:
         retval = new_content
     elif len(li) == 1:
-        retval[li[0]] = new_content
+        retval[li[0]]['data'] = new_content
     elif len(li) == 2:
-        retval[li[0]][li[1]] = new_content
+        retval[li[0]][li[1]]['data'] = new_content
     elif len(li) == 3:
-        retval[li[0]][li[1]][li[2]] = new_content
+        retval[li[0]][li[1]][li[2]]['data'] = new_content
     elif len(li) == 4:
-        retval[li[0]][li[1]][li[2]][li[3]] = new_content
+        retval[li[0]][li[1]][li[2]][li[3]]['data'] = new_content
     elif len(li) == 5:
-        retval[li[0]][li[1]][li[2]][li[3]][li[4]] = new_content
+        retval[li[0]][li[1]][li[2]][li[3]][li[4]]['data'] = new_content
 
     write_content(retval)
 
     print('SET: returning success')
     return 'success'
+
+@app.route('/try', methods=['POST'])
+def _try():
+    print("--------------------------------------------")
+    l1 = request.args.get('l1')
+    l2 = request.args.get('l2')
+    l3 = request.args.get('l3')
+    l4 = request.args.get('l4')
+    print(f'gotta update {l1} {l2} {l3} {l4} with')
+    print(request.json)
+    return 'ayee'
 
 
 @app.route('/validate', methods=['POST'])
@@ -113,6 +125,9 @@ def read_content() -> dict:
 def write_content(d: dict) -> dict:
     with open(os.path.join(DIR,'content.json'), 'w') as f:
         json.dump(d, f)
+        
+def verify_user(s):
+    return True
 
 
 if __name__ == '__main__':

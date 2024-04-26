@@ -3,6 +3,8 @@
 @using SammysBBQ.Pages.Accessories.Components
 @inject IJSRuntime JSRuntime
 
+@if(IsLoaded)
+{
 <Div ElementId="#b-animate">
     <Animate Anchor="#b-animate" Animation="Animations.ZoomIn" DelayMilliseconds="100"
         style="max-width: 100%!important; height: auto; overflow: hidden!important;">
@@ -25,6 +27,7 @@
 
     </Animate>
 </Div>
+}
 
 <br>
 
@@ -34,6 +37,7 @@
     private string WoodTitle = "Matt's Smokin' Firewood - Premium Smoking Wood";
     private JsonElement CoalData = AccessoryDataFactory.Instance.DefaultCoalData();
     private JsonElement WoodData = AccessoryDataFactory.Instance.DefaultWoodData();
+    private bool IsLoaded = false;
 
     private bool IsMobile { get; set; } = false;
     protected override async Task OnInitializedAsync()
@@ -58,5 +62,7 @@
             CoalData = data.RootElement.GetProperty("coal").GetProperty("content");
             WoodData = data.RootElement.GetProperty("wood").GetProperty("content");
         }
+
+        IsLoaded = true;
     }
 }

@@ -51,6 +51,31 @@ namespace SammysBBQ.Data
             }
         }
 
+        public async Task<bool> Set(string newData, List<string>? l = null)
+        {
+            string url = BASE_ENDPOINT + "/set?";
+
+            if (l != null)
+            {
+                for (int i = 0; i < l.Count(); i++)
+                {
+                    string li = l[i];
+                    url += $"l{i + 1}={li}&";
+                }
+            }
+
+            try
+            {
+                var response = await Http.PostAsJsonAsync(url, newData);
+                response.EnsureSuccessStatusCode();
+                return await response.Content.ReadAsStringAsync() == "success";
+            }
+            catch (Exception exc)
+            {
+                return false;
+            }
+        }
+
 
     }
 }

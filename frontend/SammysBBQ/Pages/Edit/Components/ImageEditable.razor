@@ -1,4 +1,6 @@
 ﻿@namespace SammysBBQ.Pages.Edit.Components
+@inject NavigationManager NavManager
+@using SammysBBQ.Data
 
 @if(ShowBreadcrumb)
 {
@@ -15,16 +17,27 @@
 <Row>
     <Column ColumnSize="ColumnSize.Is6">
          <Select TValue="string" @bind-SelectedValue="@Data">
+             <SelectItem Value="@("None")">None</SelectItem>
              @foreach(string availableImage in AvailableImages)
             {
                 <SelectItem Value="@availableImage">@availableImage</SelectItem>
             }
         </Select>
     </Column>
-    <Column ColumnSize="ColumnSize.Is6">
+    <Column ColumnSize="ColumnSize.Is4">
         <Figure Size="FigureSize.Is128x128">
             <FigureImage Source="@Data" />
         </Figure>
+    </Column>
+    <Column ColumnSize="ColumnSize.Is2">
+        @if (Confirmed)
+        {
+            <Button Color="Color.Success" Clicked="@OnClickedUpdateData">Confirm Update</Button>
+        }
+        else
+        {
+            <Button Color="Color.Info" Clicked="@OnClickedConfirm">Update</Button>
+        }
     </Column>
 </Row>
 
@@ -34,4 +47,22 @@
     [Parameter] public string Data { get; set; } = "";
     [Parameter] public List<string> AvailableImages { get; set; } = new();
     [Parameter] public bool ShowBreadcrumb { get; set; } = true;
+
+    private bool Confirmed = false;
+
+    async Task OnClickedUpdateData()
+    {
+        List<string> b = new List<string>(Breadcrumb);
+        b.Insert(0, "root");
+        string DataToSend = (Data == "None") ? "" : Data;
+        await ApiDataFactory.Instance.Set(DataToSend, b);
+        NavManager.NavigateTo("/edit", true);
+    }
+
+    Task OnClickedConfirm()
+    {
+        Confirmed = true;
+        StateHasChanged();
+        return Task.CompletedTask;
+    }
 }

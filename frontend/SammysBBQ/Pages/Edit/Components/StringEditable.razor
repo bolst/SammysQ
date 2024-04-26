@@ -1,4 +1,6 @@
 ﻿@namespace SammysBBQ.Pages.Edit.Components
+@inject NavigationManager NavManager
+@using SammysBBQ.Data
 
 @if(ShowBreadcrumb)
 {
@@ -12,14 +14,43 @@
     </Breadcrumb>
 }
 
-<Div Margin="Margin.IsAuto" TextAlignment="TextAlignment.Center">
-    <MemoEdit Text="@Data" AutoSize />
- </Div>
+<Row>
+    <Column ColumnSize="ColumnSize.Is10">
+        <MemoEdit @bind-Text="@Data" AutoSize />
+    </Column>
+    <Column ColumnSize="ColumnSize.Is2">
+        @if(Confirmed)
+        {   
+            <Button Color="Color.Success" Clicked="@OnClickedUpdateData">Confirm Update</Button>
+        }
+        else
+        {
+            <Button Color="Color.Info" Clicked="@OnClickedConfirm">Update</Button>
+        }
+    </Column>
+</Row>
 
 
 @code {
     [Parameter] public List<string> Breadcrumb { get; set; } = new();
     [Parameter] public string Data { get; set; } = "";
     [Parameter] public bool ShowBreadcrumb { get; set; } = true;
+
+    private bool Confirmed = false;
+
+    async Task OnClickedUpdateData()
+    {
+        List<string> b = new List<string>(Breadcrumb);
+        b.Insert(0, "root");
+        await ApiDataFactory.Instance.Set(Data, b);
+        NavManager.NavigateTo("/edit", true);
+    }    
+
+    Task OnClickedConfirm()
+    {
+        Confirmed = true;
+        StateHasChanged();
+        return Task.CompletedTask;
+    }
 
 }
