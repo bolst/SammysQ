@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "YFi3QWbNgf+dpIBzBbx5t8hXRJLhnkSW8cfCAXjraIA=",
+  "Hash": "5HNpriyKzuOAjGx6sY4WOYvJYStmuPUE2PT/fHL/ee4=",
   "Source": "SammysBBQ",
   "BasePath": "_content/SammysBBQ",
   "Mode": "Default",
@@ -8,19 +8,19 @@
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "SammysBBQ\\wwwroot",
+      "Name": "SammysBBQ/wwwroot",
       "Source": "SammysBBQ",
-      "ContentRoot": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\",
+      "ContentRoot": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/",
       "BasePath": "_content/SammysBBQ",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Nic\\.nuget\\packages\\blazorise.animate\\1.3.4\\staticwebassets\\aos.css",
+      "Identity": "/Users/nic/.nuget/packages/blazorise.animate/1.3.4/staticwebassets/aos.css",
       "SourceId": "Blazorise.Animate",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Nic\\.nuget\\packages\\blazorise.animate\\1.3.4\\staticwebassets\\",
+      "ContentRoot": "/Users/nic/.nuget/packages/blazorise.animate/1.3.4/staticwebassets/",
       "BasePath": "_content/Blazorise.Animate",
       "RelativePath": "aos.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nic\\.nuget\\packages\\blazorise.animate\\1.3.4\\staticwebassets\\aos.css"
+      "OriginalItemSpec": "/Users/nic/.nuget/packages/blazorise.animate/1.3.4/staticwebassets/aos.css"
     },
     {
-      "Identity": "C:\\Users\\Nic\\.nuget\\packages\\blazorise.animate\\1.3.4\\staticwebassets\\blazorise.animate.js",
+      "Identity": "/Users/nic/.nuget/packages/blazorise.animate/1.3.4/staticwebassets/blazorise.animate.js",
       "SourceId": "Blazorise.Animate",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Nic\\.nuget\\packages\\blazorise.animate\\1.3.4\\staticwebassets\\",
+      "ContentRoot": "/Users/nic/.nuget/packages/blazorise.animate/1.3.4/staticwebassets/",
       "BasePath": "_content/Blazorise.Animate",
       "RelativePath": "blazorise.animate.js",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nic\\.nuget\\packages\\blazorise.animate\\1.3.4\\staticwebassets\\blazorise.animate.js"
+      "OriginalItemSpec": "/Users/nic/.nuget/packages/blazorise.animate/1.3.4/staticwebassets/blazorise.animate.js"
     },
     {
-      "Identity": "C:\\Users\\Nic\\.nuget\\packages\\blazorise.bootstrap5\\1.3.4\\staticwebassets\\blazorise.bootstrap5.css",
+      "Identity": "/Users/nic/.nuget/packages/blazorise.bootstrap5/1.3.4/staticwebassets/blazorise.bootstrap5.css",
       "SourceId": "Blazorise.Bootstrap5",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Nic\\.nuget\\packages\\blazorise.bootstrap5\\1.3.4\\staticwebassets\\",
+      "ContentRoot": "/Users/nic/.nuget/packages/blazorise.bootstrap5/1.3.4/staticwebassets/",
       "BasePath": "_content/Blazorise.Bootstrap5",
       "RelativePath": "blazorise.bootstrap5.css",
       "AssetKind": "All",
@@ -71,13 +71,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nic\\.nuget\\packages\\blazorise.bootstrap5\\1.3.4\\staticwebassets\\blazorise.bootstrap5.css"
+      "OriginalItemSpec": "/Users/nic/.nuget/packages/blazorise.bootstrap5/1.3.4/staticwebassets/blazorise.bootstrap5.css"
     },
     {
-      "Identity": "C:\\Users\\Nic\\.nuget\\packages\\blazorise.bootstrap5\\1.3.4\\staticwebassets\\blazorise.bootstrap5.min.css",
+      "Identity": "/Users/nic/.nuget/packages/blazorise.bootstrap5/1.3.4/staticwebassets/blazorise.bootstrap5.min.css",
       "SourceId": "Blazorise.Bootstrap5",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Nic\\.nuget\\packages\\blazorise.bootstrap5\\1.3.4\\staticwebassets\\",
+      "ContentRoot": "/Users/nic/.nuget/packages/blazorise.bootstrap5/1.3.4/staticwebassets/",
       "BasePath": "_content/Blazorise.Bootstrap5",
       "RelativePath": "blazorise.bootstrap5.min.css",
       "AssetKind": "All",
@@ -90,13 +90,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nic\\.nuget\\packages\\blazorise.bootstrap5\\1.3.4\\staticwebassets\\blazorise.bootstrap5.min.css"
+      "OriginalItemSpec": "/Users/nic/.nuget/packages/blazorise.bootstrap5/1.3.4/staticwebassets/blazorise.bootstrap5.min.css"
     },
     {
-      "Identity": "C:\\Users\\Nic\\.nuget\\packages\\blazorise.bootstrap5\\1.3.4\\staticwebassets\\modal.js",
+      "Identity": "/Users/nic/.nuget/packages/blazorise.bootstrap5/1.3.4/staticwebassets/modal.js",
       "SourceId": "Blazorise.Bootstrap5",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Nic\\.nuget\\packages\\blazorise.bootstrap5\\1.3.4\\staticwebassets\\",
+      "ContentRoot": "/Users/nic/.nuget/packages/blazorise.bootstrap5/1.3.4/staticwebassets/",
       "BasePath": "_content/Blazorise.Bootstrap5",
       "RelativePath": "modal.js",
       "AssetKind": "All",
@@ -109,13 +109,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nic\\.nuget\\packages\\blazorise.bootstrap5\\1.3.4\\staticwebassets\\modal.js"
+      "OriginalItemSpec": "/Users/nic/.nuget/packages/blazorise.bootstrap5/1.3.4/staticwebassets/modal.js"
     },
     {
-      "Identity": "C:\\Users\\Nic\\.nuget\\packages\\blazorise.bootstrap5\\1.3.4\\staticwebassets\\tooltip.js",
+      "Identity": "/Users/nic/.nuget/packages/blazorise.bootstrap5/1.3.4/staticwebassets/tooltip.js",
       "SourceId": "Blazorise.Bootstrap5",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Nic\\.nuget\\packages\\blazorise.bootstrap5\\1.3.4\\staticwebassets\\",
+      "ContentRoot": "/Users/nic/.nuget/packages/blazorise.bootstrap5/1.3.4/staticwebassets/",
       "BasePath": "_content/Blazorise.Bootstrap5",
       "RelativePath": "tooltip.js",
       "AssetKind": "All",
@@ -128,13 +128,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nic\\.nuget\\packages\\blazorise.bootstrap5\\1.3.4\\staticwebassets\\tooltip.js"
+      "OriginalItemSpec": "/Users/nic/.nuget/packages/blazorise.bootstrap5/1.3.4/staticwebassets/tooltip.js"
     },
     {
-      "Identity": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\blazorise.css",
+      "Identity": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/blazorise.css",
       "SourceId": "Blazorise",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\",
+      "ContentRoot": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/",
       "BasePath": "_content/Blazorise",
       "RelativePath": "blazorise.css",
       "AssetKind": "All",
@@ -147,13 +147,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\blazorise.css"
+      "OriginalItemSpec": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/blazorise.css"
     },
     {
-      "Identity": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\blazorise.min.css",
+      "Identity": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/blazorise.min.css",
       "SourceId": "Blazorise",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\",
+      "ContentRoot": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/",
       "BasePath": "_content/Blazorise",
       "RelativePath": "blazorise.min.css",
       "AssetKind": "All",
@@ -166,13 +166,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\blazorise.min.css"
+      "OriginalItemSpec": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/blazorise.min.css"
     },
     {
-      "Identity": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\breakpoint.js",
+      "Identity": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/breakpoint.js",
       "SourceId": "Blazorise",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\",
+      "ContentRoot": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/",
       "BasePath": "_content/Blazorise",
       "RelativePath": "breakpoint.js",
       "AssetKind": "All",
@@ -185,13 +185,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\breakpoint.js"
+      "OriginalItemSpec": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/breakpoint.js"
     },
     {
-      "Identity": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\button.js",
+      "Identity": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/button.js",
       "SourceId": "Blazorise",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\",
+      "ContentRoot": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/",
       "BasePath": "_content/Blazorise",
       "RelativePath": "button.js",
       "AssetKind": "All",
@@ -204,13 +204,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\button.js"
+      "OriginalItemSpec": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/button.js"
     },
     {
-      "Identity": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\closable.js",
+      "Identity": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/closable.js",
       "SourceId": "Blazorise",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\",
+      "ContentRoot": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/",
       "BasePath": "_content/Blazorise",
       "RelativePath": "closable.js",
       "AssetKind": "All",
@@ -223,13 +223,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\closable.js"
+      "OriginalItemSpec": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/closable.js"
     },
     {
-      "Identity": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\colorPicker.js",
+      "Identity": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/colorPicker.js",
       "SourceId": "Blazorise",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\",
+      "ContentRoot": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/",
       "BasePath": "_content/Blazorise",
       "RelativePath": "colorPicker.js",
       "AssetKind": "All",
@@ -242,13 +242,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\colorPicker.js"
+      "OriginalItemSpec": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/colorPicker.js"
     },
     {
-      "Identity": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\datePicker.js",
+      "Identity": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/datePicker.js",
       "SourceId": "Blazorise",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\",
+      "ContentRoot": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/",
       "BasePath": "_content/Blazorise",
       "RelativePath": "datePicker.js",
       "AssetKind": "All",
@@ -261,13 +261,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\datePicker.js"
+      "OriginalItemSpec": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/datePicker.js"
     },
     {
-      "Identity": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\dragDrop.js",
+      "Identity": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/dragDrop.js",
       "SourceId": "Blazorise",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\",
+      "ContentRoot": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/",
       "BasePath": "_content/Blazorise",
       "RelativePath": "dragDrop.js",
       "AssetKind": "All",
@@ -280,13 +280,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\dragDrop.js"
+      "OriginalItemSpec": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/dragDrop.js"
     },
     {
-      "Identity": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\dropdown.js",
+      "Identity": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/dropdown.js",
       "SourceId": "Blazorise",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\",
+      "ContentRoot": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/",
       "BasePath": "_content/Blazorise",
       "RelativePath": "dropdown.js",
       "AssetKind": "All",
@@ -299,13 +299,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\dropdown.js"
+      "OriginalItemSpec": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/dropdown.js"
     },
     {
-      "Identity": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\fileEdit.js",
+      "Identity": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/fileEdit.js",
       "SourceId": "Blazorise",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\",
+      "ContentRoot": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/",
       "BasePath": "_content/Blazorise",
       "RelativePath": "fileEdit.js",
       "AssetKind": "All",
@@ -318,13 +318,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\fileEdit.js"
+      "OriginalItemSpec": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/fileEdit.js"
     },
     {
-      "Identity": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\filePicker.js",
+      "Identity": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/filePicker.js",
       "SourceId": "Blazorise",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\",
+      "ContentRoot": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/",
       "BasePath": "_content/Blazorise",
       "RelativePath": "filePicker.js",
       "AssetKind": "All",
@@ -337,13 +337,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\filePicker.js"
+      "OriginalItemSpec": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/filePicker.js"
     },
     {
-      "Identity": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\floatingUi.js",
+      "Identity": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/floatingUi.js",
       "SourceId": "Blazorise",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\",
+      "ContentRoot": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/",
       "BasePath": "_content/Blazorise",
       "RelativePath": "floatingUi.js",
       "AssetKind": "All",
@@ -356,13 +356,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\floatingUi.js"
+      "OriginalItemSpec": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/floatingUi.js"
     },
     {
-      "Identity": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\inputMask.js",
+      "Identity": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/inputMask.js",
       "SourceId": "Blazorise",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\",
+      "ContentRoot": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/",
       "BasePath": "_content/Blazorise",
       "RelativePath": "inputMask.js",
       "AssetKind": "All",
@@ -375,13 +375,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\inputMask.js"
+      "OriginalItemSpec": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/inputMask.js"
     },
     {
-      "Identity": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\io.js",
+      "Identity": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/io.js",
       "SourceId": "Blazorise",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\",
+      "ContentRoot": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/",
       "BasePath": "_content/Blazorise",
       "RelativePath": "io.js",
       "AssetKind": "All",
@@ -394,13 +394,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\io.js"
+      "OriginalItemSpec": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/io.js"
     },
     {
-      "Identity": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\memoEdit.js",
+      "Identity": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/memoEdit.js",
       "SourceId": "Blazorise",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\",
+      "ContentRoot": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/",
       "BasePath": "_content/Blazorise",
       "RelativePath": "memoEdit.js",
       "AssetKind": "All",
@@ -413,13 +413,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\memoEdit.js"
+      "OriginalItemSpec": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/memoEdit.js"
     },
     {
-      "Identity": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\numericPicker.js",
+      "Identity": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/numericPicker.js",
       "SourceId": "Blazorise",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\",
+      "ContentRoot": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/",
       "BasePath": "_content/Blazorise",
       "RelativePath": "numericPicker.js",
       "AssetKind": "All",
@@ -432,13 +432,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\numericPicker.js"
+      "OriginalItemSpec": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/numericPicker.js"
     },
     {
-      "Identity": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\observer.js",
+      "Identity": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/observer.js",
       "SourceId": "Blazorise",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\",
+      "ContentRoot": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/",
       "BasePath": "_content/Blazorise",
       "RelativePath": "observer.js",
       "AssetKind": "All",
@@ -451,13 +451,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\observer.js"
+      "OriginalItemSpec": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/observer.js"
     },
     {
-      "Identity": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\table.js",
+      "Identity": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/table.js",
       "SourceId": "Blazorise",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\",
+      "ContentRoot": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/",
       "BasePath": "_content/Blazorise",
       "RelativePath": "table.js",
       "AssetKind": "All",
@@ -470,13 +470,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\table.js"
+      "OriginalItemSpec": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/table.js"
     },
     {
-      "Identity": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\textEdit.js",
+      "Identity": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/textEdit.js",
       "SourceId": "Blazorise",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\",
+      "ContentRoot": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/",
       "BasePath": "_content/Blazorise",
       "RelativePath": "textEdit.js",
       "AssetKind": "All",
@@ -489,13 +489,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\textEdit.js"
+      "OriginalItemSpec": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/textEdit.js"
     },
     {
-      "Identity": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\theme.js",
+      "Identity": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/theme.js",
       "SourceId": "Blazorise",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\",
+      "ContentRoot": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/",
       "BasePath": "_content/Blazorise",
       "RelativePath": "theme.js",
       "AssetKind": "All",
@@ -508,13 +508,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\theme.js"
+      "OriginalItemSpec": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/theme.js"
     },
     {
-      "Identity": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\timePicker.js",
+      "Identity": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/timePicker.js",
       "SourceId": "Blazorise",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\",
+      "ContentRoot": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/",
       "BasePath": "_content/Blazorise",
       "RelativePath": "timePicker.js",
       "AssetKind": "All",
@@ -527,13 +527,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\timePicker.js"
+      "OriginalItemSpec": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/timePicker.js"
     },
     {
-      "Identity": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\tooltip.js",
+      "Identity": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/tooltip.js",
       "SourceId": "Blazorise",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\",
+      "ContentRoot": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/",
       "BasePath": "_content/Blazorise",
       "RelativePath": "tooltip.js",
       "AssetKind": "All",
@@ -546,13 +546,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\tooltip.js"
+      "OriginalItemSpec": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/tooltip.js"
     },
     {
-      "Identity": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\utilities.js",
+      "Identity": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/utilities.js",
       "SourceId": "Blazorise",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\",
+      "ContentRoot": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/",
       "BasePath": "_content/Blazorise",
       "RelativePath": "utilities.js",
       "AssetKind": "All",
@@ -565,13 +565,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\utilities.js"
+      "OriginalItemSpec": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/utilities.js"
     },
     {
-      "Identity": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\validators\\DateTimeMaskValidator.js",
+      "Identity": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/validators/DateTimeMaskValidator.js",
       "SourceId": "Blazorise",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\",
+      "ContentRoot": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/",
       "BasePath": "_content/Blazorise",
       "RelativePath": "validators/DateTimeMaskValidator.js",
       "AssetKind": "All",
@@ -584,13 +584,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\validators\\DateTimeMaskValidator.js"
+      "OriginalItemSpec": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/validators/DateTimeMaskValidator.js"
     },
     {
-      "Identity": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\validators\\NoValidator.js",
+      "Identity": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/validators/NoValidator.js",
       "SourceId": "Blazorise",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\",
+      "ContentRoot": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/",
       "BasePath": "_content/Blazorise",
       "RelativePath": "validators/NoValidator.js",
       "AssetKind": "All",
@@ -603,13 +603,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\validators\\NoValidator.js"
+      "OriginalItemSpec": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/validators/NoValidator.js"
     },
     {
-      "Identity": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\validators\\NumericMaskValidator.js",
+      "Identity": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/validators/NumericMaskValidator.js",
       "SourceId": "Blazorise",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\",
+      "ContentRoot": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/",
       "BasePath": "_content/Blazorise",
       "RelativePath": "validators/NumericMaskValidator.js",
       "AssetKind": "All",
@@ -622,13 +622,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\validators\\NumericMaskValidator.js"
+      "OriginalItemSpec": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/validators/NumericMaskValidator.js"
     },
     {
-      "Identity": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\validators\\RegExMaskValidator.js",
+      "Identity": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/validators/RegExMaskValidator.js",
       "SourceId": "Blazorise",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\",
+      "ContentRoot": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/",
       "BasePath": "_content/Blazorise",
       "RelativePath": "validators/RegExMaskValidator.js",
       "AssetKind": "All",
@@ -641,13 +641,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\validators\\RegExMaskValidator.js"
+      "OriginalItemSpec": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/validators/RegExMaskValidator.js"
     },
     {
-      "Identity": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\vendors\\autoNumeric.js",
+      "Identity": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/vendors/autoNumeric.js",
       "SourceId": "Blazorise",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\",
+      "ContentRoot": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/",
       "BasePath": "_content/Blazorise",
       "RelativePath": "vendors/autoNumeric.js",
       "AssetKind": "All",
@@ -660,13 +660,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\vendors\\autoNumeric.js"
+      "OriginalItemSpec": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/vendors/autoNumeric.js"
     },
     {
-      "Identity": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\vendors\\Behave.js",
+      "Identity": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/vendors/Behave.js",
       "SourceId": "Blazorise",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\",
+      "ContentRoot": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/",
       "BasePath": "_content/Blazorise",
       "RelativePath": "vendors/Behave.js",
       "AssetKind": "All",
@@ -679,13 +679,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\vendors\\Behave.js"
+      "OriginalItemSpec": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/vendors/Behave.js"
     },
     {
-      "Identity": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\vendors\\flatpickr.js",
+      "Identity": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/vendors/flatpickr.js",
       "SourceId": "Blazorise",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\",
+      "ContentRoot": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/",
       "BasePath": "_content/Blazorise",
       "RelativePath": "vendors/flatpickr.js",
       "AssetKind": "All",
@@ -698,32 +698,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\vendors\\flatpickr.js"
+      "OriginalItemSpec": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/vendors/flatpickr.js"
     },
     {
-      "Identity": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\vendors\\floating-ui.js",
+      "Identity": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/vendors/floating-ui-core.js",
       "SourceId": "Blazorise",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\",
-      "BasePath": "_content/Blazorise",
-      "RelativePath": "vendors/floating-ui.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\vendors\\floating-ui.js"
-    },
-    {
-      "Identity": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\vendors\\floating-ui-core.js",
-      "SourceId": "Blazorise",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\",
+      "ContentRoot": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/",
       "BasePath": "_content/Blazorise",
       "RelativePath": "vendors/floating-ui-core.js",
       "AssetKind": "All",
@@ -736,13 +717,32 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\vendors\\floating-ui-core.js"
+      "OriginalItemSpec": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/vendors/floating-ui-core.js"
     },
     {
-      "Identity": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\vendors\\inputmask.js",
+      "Identity": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/vendors/floating-ui.js",
       "SourceId": "Blazorise",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\",
+      "ContentRoot": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/",
+      "BasePath": "_content/Blazorise",
+      "RelativePath": "vendors/floating-ui.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/vendors/floating-ui.js"
+    },
+    {
+      "Identity": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/vendors/inputmask.js",
+      "SourceId": "Blazorise",
+      "SourceType": "Package",
+      "ContentRoot": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/",
       "BasePath": "_content/Blazorise",
       "RelativePath": "vendors/inputmask.js",
       "AssetKind": "All",
@@ -755,13 +755,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\vendors\\inputmask.js"
+      "OriginalItemSpec": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/vendors/inputmask.js"
     },
     {
-      "Identity": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\vendors\\jsencrypt.js",
+      "Identity": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/vendors/jsencrypt.js",
       "SourceId": "Blazorise",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\",
+      "ContentRoot": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/",
       "BasePath": "_content/Blazorise",
       "RelativePath": "vendors/jsencrypt.js",
       "AssetKind": "All",
@@ -774,13 +774,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\vendors\\jsencrypt.js"
+      "OriginalItemSpec": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/vendors/jsencrypt.js"
     },
     {
-      "Identity": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\vendors\\Pickr.js",
+      "Identity": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/vendors/Pickr.js",
       "SourceId": "Blazorise",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\",
+      "ContentRoot": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/",
       "BasePath": "_content/Blazorise",
       "RelativePath": "vendors/Pickr.js",
       "AssetKind": "All",
@@ -793,13 +793,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\vendors\\Pickr.js"
+      "OriginalItemSpec": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/vendors/Pickr.js"
     },
     {
-      "Identity": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\vendors\\sha512.js",
+      "Identity": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/vendors/sha512.js",
       "SourceId": "Blazorise",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\",
+      "ContentRoot": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/",
       "BasePath": "_content/Blazorise",
       "RelativePath": "vendors/sha512.js",
       "AssetKind": "All",
@@ -812,13 +812,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nic\\.nuget\\packages\\blazorise\\1.3.4\\staticwebassets\\vendors\\sha512.js"
+      "OriginalItemSpec": "/Users/nic/.nuget/packages/blazorise/1.3.4/staticwebassets/vendors/sha512.js"
     },
     {
-      "Identity": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\brand-logo.png",
+      "Identity": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/brand-logo.png",
       "SourceId": "SammysBBQ",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\",
+      "ContentRoot": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/",
       "BasePath": "_content/SammysBBQ",
       "RelativePath": "brand-logo.png",
       "AssetKind": "All",
@@ -831,13 +831,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\brand-logo.png"
+      "OriginalItemSpec": "wwwroot/brand-logo.png"
     },
     {
-      "Identity": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\css\\blazor-ui.css",
+      "Identity": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/css/blazor-ui.css",
       "SourceId": "SammysBBQ",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\",
+      "ContentRoot": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/",
       "BasePath": "_content/SammysBBQ",
       "RelativePath": "css/blazor-ui.css",
       "AssetKind": "All",
@@ -850,13 +850,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\blazor-ui.css"
+      "OriginalItemSpec": "wwwroot/css/blazor-ui.css"
     },
     {
-      "Identity": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\css\\responsive.css",
+      "Identity": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/css/responsive.css",
       "SourceId": "SammysBBQ",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\",
+      "ContentRoot": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/",
       "BasePath": "_content/SammysBBQ",
       "RelativePath": "css/responsive.css",
       "AssetKind": "All",
@@ -869,13 +869,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\responsive.css"
+      "OriginalItemSpec": "wwwroot/css/responsive.css"
     },
     {
-      "Identity": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\css\\styles.css",
+      "Identity": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/css/styles.css",
       "SourceId": "SammysBBQ",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\",
+      "ContentRoot": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/",
       "BasePath": "_content/SammysBBQ",
       "RelativePath": "css/styles.css",
       "AssetKind": "All",
@@ -888,13 +888,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\styles.css"
+      "OriginalItemSpec": "wwwroot/css/styles.css"
     },
     {
-      "Identity": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\bbq-fire.mp4",
+      "Identity": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/bbq-fire.mp4",
       "SourceId": "SammysBBQ",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\",
+      "ContentRoot": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/",
       "BasePath": "_content/SammysBBQ",
       "RelativePath": "img/bbq-fire.mp4",
       "AssetKind": "All",
@@ -907,13 +907,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\bbq-fire.mp4"
+      "OriginalItemSpec": "wwwroot/img/bbq-fire.mp4"
     },
     {
-      "Identity": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\bbq-frontview.jpg",
+      "Identity": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/bbq-frontview.jpg",
       "SourceId": "SammysBBQ",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\",
+      "ContentRoot": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/",
       "BasePath": "_content/SammysBBQ",
       "RelativePath": "img/bbq-frontview.jpg",
       "AssetKind": "All",
@@ -926,13 +926,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\bbq-frontview.jpg"
+      "OriginalItemSpec": "wwwroot/img/bbq-frontview.jpg"
     },
     {
-      "Identity": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\bbq-logo.jpg",
+      "Identity": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/bbq-logo.jpg",
       "SourceId": "SammysBBQ",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\",
+      "ContentRoot": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/",
       "BasePath": "_content/SammysBBQ",
       "RelativePath": "img/bbq-logo.jpg",
       "AssetKind": "All",
@@ -945,13 +945,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\bbq-logo.jpg"
+      "OriginalItemSpec": "wwwroot/img/bbq-logo.jpg"
     },
     {
-      "Identity": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\bbq-open.jpg",
+      "Identity": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/bbq-open.jpg",
       "SourceId": "SammysBBQ",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\",
+      "ContentRoot": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/",
       "BasePath": "_content/SammysBBQ",
       "RelativePath": "img/bbq-open.jpg",
       "AssetKind": "All",
@@ -964,13 +964,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\bbq-open.jpg"
+      "OriginalItemSpec": "wwwroot/img/bbq-open.jpg"
     },
     {
-      "Identity": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\bbq-outside-day.jpg",
+      "Identity": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/bbq-outside-day.jpg",
       "SourceId": "SammysBBQ",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\",
+      "ContentRoot": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/",
       "BasePath": "_content/SammysBBQ",
       "RelativePath": "img/bbq-outside-day.jpg",
       "AssetKind": "All",
@@ -983,13 +983,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\bbq-outside-day.jpg"
+      "OriginalItemSpec": "wwwroot/img/bbq-outside-day.jpg"
     },
     {
-      "Identity": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\bbq-outside-night.jpg",
+      "Identity": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/bbq-outside-night.jpg",
       "SourceId": "SammysBBQ",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\",
+      "ContentRoot": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/",
       "BasePath": "_content/SammysBBQ",
       "RelativePath": "img/bbq-outside-night.jpg",
       "AssetKind": "All",
@@ -1002,13 +1002,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\bbq-outside-night.jpg"
+      "OriginalItemSpec": "wwwroot/img/bbq-outside-night.jpg"
     },
     {
-      "Identity": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\bbq-sideview.jpg",
+      "Identity": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/bbq-sideview.jpg",
       "SourceId": "SammysBBQ",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\",
+      "ContentRoot": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/",
       "BasePath": "_content/SammysBBQ",
       "RelativePath": "img/bbq-sideview.jpg",
       "AssetKind": "All",
@@ -1021,13 +1021,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\bbq-sideview.jpg"
+      "OriginalItemSpec": "wwwroot/img/bbq-sideview.jpg"
     },
     {
-      "Identity": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\bbq-topview.jpg",
+      "Identity": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/bbq-topview.jpg",
       "SourceId": "SammysBBQ",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\",
+      "ContentRoot": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/",
       "BasePath": "_content/SammysBBQ",
       "RelativePath": "img/bbq-topview.jpg",
       "AssetKind": "All",
@@ -1040,13 +1040,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\bbq-topview.jpg"
+      "OriginalItemSpec": "wwwroot/img/bbq-topview.jpg"
     },
     {
-      "Identity": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\beef-ribs.jpg",
+      "Identity": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/beef-ribs.jpg",
       "SourceId": "SammysBBQ",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\",
+      "ContentRoot": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/",
       "BasePath": "_content/SammysBBQ",
       "RelativePath": "img/beef-ribs.jpg",
       "AssetKind": "All",
@@ -1059,32 +1059,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\beef-ribs.jpg"
+      "OriginalItemSpec": "wwwroot/img/beef-ribs.jpg"
     },
     {
-      "Identity": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\brisket.jpg",
+      "Identity": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/brisket-video.mp4",
       "SourceId": "SammysBBQ",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\",
-      "BasePath": "_content/SammysBBQ",
-      "RelativePath": "img/brisket.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\brisket.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\brisket-video.mp4",
-      "SourceId": "SammysBBQ",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\",
+      "ContentRoot": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/",
       "BasePath": "_content/SammysBBQ",
       "RelativePath": "img/brisket-video.mp4",
       "AssetKind": "All",
@@ -1097,13 +1078,32 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\brisket-video.mp4"
+      "OriginalItemSpec": "wwwroot/img/brisket-video.mp4"
     },
     {
-      "Identity": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\burger.jpg",
+      "Identity": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/brisket.jpg",
       "SourceId": "SammysBBQ",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\",
+      "ContentRoot": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/",
+      "BasePath": "_content/SammysBBQ",
+      "RelativePath": "img/brisket.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/brisket.jpg"
+    },
+    {
+      "Identity": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/burger.jpg",
+      "SourceId": "SammysBBQ",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/",
       "BasePath": "_content/SammysBBQ",
       "RelativePath": "img/burger.jpg",
       "AssetKind": "All",
@@ -1116,32 +1116,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\burger.jpg"
+      "OriginalItemSpec": "wwwroot/img/burger.jpg"
     },
     {
-      "Identity": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\bush-coal.jpg",
+      "Identity": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/bush-coal-closeup.jpg",
       "SourceId": "SammysBBQ",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\",
-      "BasePath": "_content/SammysBBQ",
-      "RelativePath": "img/bush-coal.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\bush-coal.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\bush-coal-closeup.jpg",
-      "SourceId": "SammysBBQ",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\",
+      "ContentRoot": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/",
       "BasePath": "_content/SammysBBQ",
       "RelativePath": "img/bush-coal-closeup.jpg",
       "AssetKind": "All",
@@ -1154,13 +1135,32 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\bush-coal-closeup.jpg"
+      "OriginalItemSpec": "wwwroot/img/bush-coal-closeup.jpg"
     },
     {
-      "Identity": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\catering-flyer.jpg",
+      "Identity": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/bush-coal.jpg",
       "SourceId": "SammysBBQ",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\",
+      "ContentRoot": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/",
+      "BasePath": "_content/SammysBBQ",
+      "RelativePath": "img/bush-coal.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/bush-coal.jpg"
+    },
+    {
+      "Identity": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/catering-flyer.jpg",
+      "SourceId": "SammysBBQ",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/",
       "BasePath": "_content/SammysBBQ",
       "RelativePath": "img/catering-flyer.jpg",
       "AssetKind": "All",
@@ -1173,32 +1173,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\catering-flyer.jpg"
+      "OriginalItemSpec": "wwwroot/img/catering-flyer.jpg"
     },
     {
-      "Identity": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\chicken.jpg",
+      "Identity": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/chicken-wings.jpg",
       "SourceId": "SammysBBQ",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\",
-      "BasePath": "_content/SammysBBQ",
-      "RelativePath": "img/chicken.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\chicken.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\chicken-wings.jpg",
-      "SourceId": "SammysBBQ",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\",
+      "ContentRoot": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/",
       "BasePath": "_content/SammysBBQ",
       "RelativePath": "img/chicken-wings.jpg",
       "AssetKind": "All",
@@ -1211,13 +1192,32 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\chicken-wings.jpg"
+      "OriginalItemSpec": "wwwroot/img/chicken-wings.jpg"
     },
     {
-      "Identity": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\coal-wood-group.jpg",
+      "Identity": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/chicken.jpg",
       "SourceId": "SammysBBQ",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\",
+      "ContentRoot": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/",
+      "BasePath": "_content/SammysBBQ",
+      "RelativePath": "img/chicken.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/chicken.jpg"
+    },
+    {
+      "Identity": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/coal-wood-group.jpg",
+      "SourceId": "SammysBBQ",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/",
       "BasePath": "_content/SammysBBQ",
       "RelativePath": "img/coal-wood-group.jpg",
       "AssetKind": "All",
@@ -1230,13 +1230,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\coal-wood-group.jpg"
+      "OriginalItemSpec": "wwwroot/img/coal-wood-group.jpg"
     },
     {
-      "Identity": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\favicon.ico",
+      "Identity": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/favicon.ico",
       "SourceId": "SammysBBQ",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\",
+      "ContentRoot": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/",
       "BasePath": "_content/SammysBBQ",
       "RelativePath": "img/favicon.ico",
       "AssetKind": "All",
@@ -1249,13 +1249,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\favicon.ico"
+      "OriginalItemSpec": "wwwroot/img/favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\japaleno-sausages.jpg",
+      "Identity": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/japaleno-sausages.jpg",
       "SourceId": "SammysBBQ",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\",
+      "ContentRoot": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/",
       "BasePath": "_content/SammysBBQ",
       "RelativePath": "img/japaleno-sausages.jpg",
       "AssetKind": "All",
@@ -1268,32 +1268,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\japaleno-sausages.jpg"
+      "OriginalItemSpec": "wwwroot/img/japaleno-sausages.jpg"
     },
     {
-      "Identity": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\logo.jpg",
+      "Identity": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/logo-nobkg.png",
       "SourceId": "SammysBBQ",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\",
-      "BasePath": "_content/SammysBBQ",
-      "RelativePath": "img/logo.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\logo.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\logo-nobkg.png",
-      "SourceId": "SammysBBQ",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\",
+      "ContentRoot": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/",
       "BasePath": "_content/SammysBBQ",
       "RelativePath": "img/logo-nobkg.png",
       "AssetKind": "All",
@@ -1306,13 +1287,32 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\logo-nobkg.png"
+      "OriginalItemSpec": "wwwroot/img/logo-nobkg.png"
     },
     {
-      "Identity": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\maple-chipotle-rainbow-trout.jpg",
+      "Identity": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/logo.jpg",
       "SourceId": "SammysBBQ",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\",
+      "ContentRoot": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/",
+      "BasePath": "_content/SammysBBQ",
+      "RelativePath": "img/logo.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/logo.jpg"
+    },
+    {
+      "Identity": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/maple-chipotle-rainbow-trout.jpg",
+      "SourceId": "SammysBBQ",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/",
       "BasePath": "_content/SammysBBQ",
       "RelativePath": "img/maple-chipotle-rainbow-trout.jpg",
       "AssetKind": "All",
@@ -1325,13 +1325,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\maple-chipotle-rainbow-trout.jpg"
+      "OriginalItemSpec": "wwwroot/img/maple-chipotle-rainbow-trout.jpg"
     },
     {
-      "Identity": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\pork-belly-burnt-ends.jpg",
+      "Identity": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/pork-belly-burnt-ends.jpg",
       "SourceId": "SammysBBQ",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\",
+      "ContentRoot": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/",
       "BasePath": "_content/SammysBBQ",
       "RelativePath": "img/pork-belly-burnt-ends.jpg",
       "AssetKind": "All",
@@ -1344,13 +1344,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\pork-belly-burnt-ends.jpg"
+      "OriginalItemSpec": "wwwroot/img/pork-belly-burnt-ends.jpg"
     },
     {
-      "Identity": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\pulled-lamb-bbq.jpg",
+      "Identity": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/pulled-lamb-bbq.jpg",
       "SourceId": "SammysBBQ",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\",
+      "ContentRoot": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/",
       "BasePath": "_content/SammysBBQ",
       "RelativePath": "img/pulled-lamb-bbq.jpg",
       "AssetKind": "All",
@@ -1363,32 +1363,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\pulled-lamb-bbq.jpg"
+      "OriginalItemSpec": "wwwroot/img/pulled-lamb-bbq.jpg"
     },
     {
-      "Identity": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\pulled-lamb-cut-1.jpg",
+      "Identity": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/pulled-lamb-cut-1-square.jpg",
       "SourceId": "SammysBBQ",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\",
-      "BasePath": "_content/SammysBBQ",
-      "RelativePath": "img/pulled-lamb-cut-1.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\pulled-lamb-cut-1.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\pulled-lamb-cut-1-square.jpg",
-      "SourceId": "SammysBBQ",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\",
+      "ContentRoot": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/",
       "BasePath": "_content/SammysBBQ",
       "RelativePath": "img/pulled-lamb-cut-1-square.jpg",
       "AssetKind": "All",
@@ -1401,13 +1382,32 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\pulled-lamb-cut-1-square.jpg"
+      "OriginalItemSpec": "wwwroot/img/pulled-lamb-cut-1-square.jpg"
     },
     {
-      "Identity": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\pulled-lamb-cut-2.jpg",
+      "Identity": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/pulled-lamb-cut-1.jpg",
       "SourceId": "SammysBBQ",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\",
+      "ContentRoot": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/",
+      "BasePath": "_content/SammysBBQ",
+      "RelativePath": "img/pulled-lamb-cut-1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/pulled-lamb-cut-1.jpg"
+    },
+    {
+      "Identity": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/pulled-lamb-cut-2.jpg",
+      "SourceId": "SammysBBQ",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/",
       "BasePath": "_content/SammysBBQ",
       "RelativePath": "img/pulled-lamb-cut-2.jpg",
       "AssetKind": "All",
@@ -1420,13 +1420,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\pulled-lamb-cut-2.jpg"
+      "OriginalItemSpec": "wwwroot/img/pulled-lamb-cut-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\pulled-pork-sandwich.jpg",
+      "Identity": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/pulled-pork-sandwich.jpg",
       "SourceId": "SammysBBQ",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\",
+      "ContentRoot": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/",
       "BasePath": "_content/SammysBBQ",
       "RelativePath": "img/pulled-pork-sandwich.jpg",
       "AssetKind": "All",
@@ -1439,32 +1439,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\pulled-pork-sandwich.jpg"
+      "OriginalItemSpec": "wwwroot/img/pulled-pork-sandwich.jpg"
     },
     {
-      "Identity": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\sammys-flyer.jpg",
+      "Identity": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/sammy-wolfhead.jpg",
       "SourceId": "SammysBBQ",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\",
-      "BasePath": "_content/SammysBBQ",
-      "RelativePath": "img/sammys-flyer.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\sammys-flyer.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\sammy-wolfhead.jpg",
-      "SourceId": "SammysBBQ",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\",
+      "ContentRoot": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/",
       "BasePath": "_content/SammysBBQ",
       "RelativePath": "img/sammy-wolfhead.jpg",
       "AssetKind": "All",
@@ -1477,13 +1458,32 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\sammy-wolfhead.jpg"
+      "OriginalItemSpec": "wwwroot/img/sammy-wolfhead.jpg"
     },
     {
-      "Identity": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\sausages.jpg",
+      "Identity": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/sammys-flyer.jpg",
       "SourceId": "SammysBBQ",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\",
+      "ContentRoot": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/",
+      "BasePath": "_content/SammysBBQ",
+      "RelativePath": "img/sammys-flyer.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/sammys-flyer.jpg"
+    },
+    {
+      "Identity": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/sausages.jpg",
+      "SourceId": "SammysBBQ",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/",
       "BasePath": "_content/SammysBBQ",
       "RelativePath": "img/sausages.jpg",
       "AssetKind": "All",
@@ -1496,13 +1496,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\sausages.jpg"
+      "OriginalItemSpec": "wwwroot/img/sausages.jpg"
     },
     {
-      "Identity": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\socials\\facebook.png",
+      "Identity": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/socials/facebook.png",
       "SourceId": "SammysBBQ",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\",
+      "ContentRoot": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/",
       "BasePath": "_content/SammysBBQ",
       "RelativePath": "img/socials/facebook.png",
       "AssetKind": "All",
@@ -1515,13 +1515,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\socials\\facebook.png"
+      "OriginalItemSpec": "wwwroot/img/socials/facebook.png"
     },
     {
-      "Identity": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\socials\\gmail.png",
+      "Identity": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/socials/gmail.png",
       "SourceId": "SammysBBQ",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\",
+      "ContentRoot": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/",
       "BasePath": "_content/SammysBBQ",
       "RelativePath": "img/socials/gmail.png",
       "AssetKind": "All",
@@ -1534,13 +1534,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\socials\\gmail.png"
+      "OriginalItemSpec": "wwwroot/img/socials/gmail.png"
     },
     {
-      "Identity": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\socials\\instagram.png",
+      "Identity": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/socials/instagram.png",
       "SourceId": "SammysBBQ",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\",
+      "ContentRoot": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/",
       "BasePath": "_content/SammysBBQ",
       "RelativePath": "img/socials/instagram.png",
       "AssetKind": "All",
@@ -1553,13 +1553,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\socials\\instagram.png"
+      "OriginalItemSpec": "wwwroot/img/socials/instagram.png"
     },
     {
-      "Identity": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\socials\\phone.png",
+      "Identity": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/socials/phone.png",
       "SourceId": "SammysBBQ",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\",
+      "ContentRoot": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/",
       "BasePath": "_content/SammysBBQ",
       "RelativePath": "img/socials/phone.png",
       "AssetKind": "All",
@@ -1572,13 +1572,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\socials\\phone.png"
+      "OriginalItemSpec": "wwwroot/img/socials/phone.png"
     },
     {
-      "Identity": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\spotlight\\bacon_crackers.jpg",
+      "Identity": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/spotlight/bacon_crackers.jpg",
       "SourceId": "SammysBBQ",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\",
+      "ContentRoot": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/",
       "BasePath": "_content/SammysBBQ",
       "RelativePath": "img/spotlight/bacon_crackers.jpg",
       "AssetKind": "All",
@@ -1591,13 +1591,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\spotlight\\bacon_crackers.jpg"
+      "OriginalItemSpec": "wwwroot/img/spotlight/bacon_crackers.jpg"
     },
     {
-      "Identity": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\spotlight\\chicken_sausage_app.jpg",
+      "Identity": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/spotlight/chicken_sausage_app.jpg",
       "SourceId": "SammysBBQ",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\",
+      "ContentRoot": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/",
       "BasePath": "_content/SammysBBQ",
       "RelativePath": "img/spotlight/chicken_sausage_app.jpg",
       "AssetKind": "All",
@@ -1610,13 +1610,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\spotlight\\chicken_sausage_app.jpg"
+      "OriginalItemSpec": "wwwroot/img/spotlight/chicken_sausage_app.jpg"
     },
     {
-      "Identity": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\spotlight\\ppork_sandwich.jpg",
+      "Identity": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/spotlight/ppork_sandwich.jpg",
       "SourceId": "SammysBBQ",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\",
+      "ContentRoot": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/",
       "BasePath": "_content/SammysBBQ",
       "RelativePath": "img/spotlight/ppork_sandwich.jpg",
       "AssetKind": "All",
@@ -1629,13 +1629,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\spotlight\\ppork_sandwich.jpg"
+      "OriginalItemSpec": "wwwroot/img/spotlight/ppork_sandwich.jpg"
     },
     {
-      "Identity": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\spotlight\\steak_tacos.jpg",
+      "Identity": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/spotlight/steak_tacos.jpg",
       "SourceId": "SammysBBQ",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\",
+      "ContentRoot": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/",
       "BasePath": "_content/SammysBBQ",
       "RelativePath": "img/spotlight/steak_tacos.jpg",
       "AssetKind": "All",
@@ -1648,13 +1648,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\spotlight\\steak_tacos.jpg"
+      "OriginalItemSpec": "wwwroot/img/spotlight/steak_tacos.jpg"
     },
     {
-      "Identity": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\squid.jpg",
+      "Identity": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/squid.jpg",
       "SourceId": "SammysBBQ",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\",
+      "ContentRoot": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/",
       "BasePath": "_content/SammysBBQ",
       "RelativePath": "img/squid.jpg",
       "AssetKind": "All",
@@ -1667,13 +1667,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\squid.jpg"
+      "OriginalItemSpec": "wwwroot/img/squid.jpg"
     },
     {
-      "Identity": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\steak-bbq.jpg",
+      "Identity": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/steak-bbq.jpg",
       "SourceId": "SammysBBQ",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\",
+      "ContentRoot": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/",
       "BasePath": "_content/SammysBBQ",
       "RelativePath": "img/steak-bbq.jpg",
       "AssetKind": "All",
@@ -1686,13 +1686,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\steak-bbq.jpg"
+      "OriginalItemSpec": "wwwroot/img/steak-bbq.jpg"
     },
     {
-      "Identity": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\steak-meal.jpg",
+      "Identity": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/steak-meal.jpg",
       "SourceId": "SammysBBQ",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\",
+      "ContentRoot": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/",
       "BasePath": "_content/SammysBBQ",
       "RelativePath": "img/steak-meal.jpg",
       "AssetKind": "All",
@@ -1705,32 +1705,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\steak-meal.jpg"
+      "OriginalItemSpec": "wwwroot/img/steak-meal.jpg"
     },
     {
-      "Identity": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\steak-tacos.jpg",
+      "Identity": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/steak-tacos-square.jpg",
       "SourceId": "SammysBBQ",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\",
-      "BasePath": "_content/SammysBBQ",
-      "RelativePath": "img/steak-tacos.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\steak-tacos.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\steak-tacos-square.jpg",
-      "SourceId": "SammysBBQ",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\",
+      "ContentRoot": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/",
       "BasePath": "_content/SammysBBQ",
       "RelativePath": "img/steak-tacos-square.jpg",
       "AssetKind": "All",
@@ -1743,13 +1724,32 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\steak-tacos-square.jpg"
+      "OriginalItemSpec": "wwwroot/img/steak-tacos-square.jpg"
     },
     {
-      "Identity": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\stlouis-ribs-1.jpg",
+      "Identity": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/steak-tacos.jpg",
       "SourceId": "SammysBBQ",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\",
+      "ContentRoot": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/",
+      "BasePath": "_content/SammysBBQ",
+      "RelativePath": "img/steak-tacos.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/steak-tacos.jpg"
+    },
+    {
+      "Identity": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/stlouis-ribs-1.jpg",
+      "SourceId": "SammysBBQ",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/",
       "BasePath": "_content/SammysBBQ",
       "RelativePath": "img/stlouis-ribs-1.jpg",
       "AssetKind": "All",
@@ -1762,13 +1762,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\stlouis-ribs-1.jpg"
+      "OriginalItemSpec": "wwwroot/img/stlouis-ribs-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\stlouis-ribs-2.jpg",
+      "Identity": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/stlouis-ribs-2.jpg",
       "SourceId": "SammysBBQ",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\",
+      "ContentRoot": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/",
       "BasePath": "_content/SammysBBQ",
       "RelativePath": "img/stlouis-ribs-2.jpg",
       "AssetKind": "All",
@@ -1781,13 +1781,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\stlouis-ribs-2.jpg"
+      "OriginalItemSpec": "wwwroot/img/stlouis-ribs-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\wings.jpg",
+      "Identity": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/wings.jpg",
       "SourceId": "SammysBBQ",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\",
+      "ContentRoot": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/",
       "BasePath": "_content/SammysBBQ",
       "RelativePath": "img/wings.jpg",
       "AssetKind": "All",
@@ -1800,13 +1800,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\wings.jpg"
+      "OriginalItemSpec": "wwwroot/img/wings.jpg"
     },
     {
-      "Identity": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\wood-bagged1.jpg",
+      "Identity": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/wood-bagged1.jpg",
       "SourceId": "SammysBBQ",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\",
+      "ContentRoot": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/",
       "BasePath": "_content/SammysBBQ",
       "RelativePath": "img/wood-bagged1.jpg",
       "AssetKind": "All",
@@ -1819,13 +1819,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\wood-bagged1.jpg"
+      "OriginalItemSpec": "wwwroot/img/wood-bagged1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\wood-bagged2.jpg",
+      "Identity": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/wood-bagged2.jpg",
       "SourceId": "SammysBBQ",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\",
+      "ContentRoot": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/",
       "BasePath": "_content/SammysBBQ",
       "RelativePath": "img/wood-bagged2.jpg",
       "AssetKind": "All",
@@ -1838,13 +1838,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\wood-bagged2.jpg"
+      "OriginalItemSpec": "wwwroot/img/wood-bagged2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\wood-closeup1.jpg",
+      "Identity": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/wood-closeup1.jpg",
       "SourceId": "SammysBBQ",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\",
+      "ContentRoot": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/",
       "BasePath": "_content/SammysBBQ",
       "RelativePath": "img/wood-closeup1.jpg",
       "AssetKind": "All",
@@ -1857,13 +1857,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\wood-closeup1.jpg"
+      "OriginalItemSpec": "wwwroot/img/wood-closeup1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\wood-closeup2.jpg",
+      "Identity": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/wood-closeup2.jpg",
       "SourceId": "SammysBBQ",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\",
+      "ContentRoot": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/",
       "BasePath": "_content/SammysBBQ",
       "RelativePath": "img/wood-closeup2.jpg",
       "AssetKind": "All",
@@ -1876,13 +1876,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\wood-closeup2.jpg"
+      "OriginalItemSpec": "wwwroot/img/wood-closeup2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\script.js",
+      "Identity": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/script.js",
       "SourceId": "SammysBBQ",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\",
+      "ContentRoot": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/",
       "BasePath": "_content/SammysBBQ",
       "RelativePath": "script.js",
       "AssetKind": "All",
@@ -1895,7 +1895,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\script.js"
+      "OriginalItemSpec": "wwwroot/script.js"
     }
   ]
 }

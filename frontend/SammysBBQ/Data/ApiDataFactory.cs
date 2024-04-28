@@ -5,7 +5,7 @@ namespace SammysBBQ.Data
     public class ApiDataFactory : AbsSingleton<ApiDataFactory>
     {
 
-        private readonly string BASE_ENDPOINT = Environment.GetEnvironmentVariable("DB_HOST_URL")??"";
+        private readonly string BASE_ENDPOINT = Environment.GetEnvironmentVariable("DB_HOST_URL") ?? "";
         private readonly HttpClient Http;
 
         public ApiDataFactory()
@@ -73,8 +73,8 @@ namespace SammysBBQ.Data
             {
                 return false;
             }
-        }        
-        
+        }
+
         public async Task<bool> Set(List<MenuItemContent> newData, List<string>? l = null)
         {
             string url = BASE_ENDPOINT + "/set?";
@@ -98,6 +98,19 @@ namespace SammysBBQ.Data
             {
                 return false;
             }
+        }
+
+        public async Task<bool> AddMenu(List<MenuItemContent> menuItems, string menuTitle)
+        {
+            string url = BASE_ENDPOINT + "/addmenu?title=" + menuTitle;
+
+            try
+            {
+                var response = await Http.PostAsJsonAsync(url, menuItems);
+                response.EnsureSuccessStatusCode();
+                return await response.Content.ReadAsStringAsync() == "success";
+            }
+            catch (Exception exc) { return false; }
         }
 
 

@@ -1,247 +1,247 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\brand-logo.png",
-      "PackagePath": "staticwebassets\\brand-logo.png"
+      "Id": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/brand-logo.png",
+      "PackagePath": "staticwebassets/brand-logo.png"
     },
     {
-      "Id": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\css\\blazor-ui.css",
-      "PackagePath": "staticwebassets\\css\\blazor-ui.css"
+      "Id": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/css/blazor-ui.css",
+      "PackagePath": "staticwebassets/css/blazor-ui.css"
     },
     {
-      "Id": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\css\\responsive.css",
-      "PackagePath": "staticwebassets\\css\\responsive.css"
+      "Id": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/css/responsive.css",
+      "PackagePath": "staticwebassets/css/responsive.css"
     },
     {
-      "Id": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\css\\styles.css",
-      "PackagePath": "staticwebassets\\css\\styles.css"
+      "Id": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/css/styles.css",
+      "PackagePath": "staticwebassets/css/styles.css"
     },
     {
-      "Id": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\bbq-fire.mp4",
-      "PackagePath": "staticwebassets\\img\\bbq-fire.mp4"
+      "Id": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/bbq-fire.mp4",
+      "PackagePath": "staticwebassets/img/bbq-fire.mp4"
     },
     {
-      "Id": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\bbq-frontview.jpg",
-      "PackagePath": "staticwebassets\\img\\bbq-frontview.jpg"
+      "Id": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/bbq-frontview.jpg",
+      "PackagePath": "staticwebassets/img/bbq-frontview.jpg"
     },
     {
-      "Id": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\bbq-logo.jpg",
-      "PackagePath": "staticwebassets\\img\\bbq-logo.jpg"
+      "Id": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/bbq-logo.jpg",
+      "PackagePath": "staticwebassets/img/bbq-logo.jpg"
     },
     {
-      "Id": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\bbq-open.jpg",
-      "PackagePath": "staticwebassets\\img\\bbq-open.jpg"
+      "Id": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/bbq-open.jpg",
+      "PackagePath": "staticwebassets/img/bbq-open.jpg"
     },
     {
-      "Id": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\bbq-outside-day.jpg",
-      "PackagePath": "staticwebassets\\img\\bbq-outside-day.jpg"
+      "Id": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/bbq-outside-day.jpg",
+      "PackagePath": "staticwebassets/img/bbq-outside-day.jpg"
     },
     {
-      "Id": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\bbq-outside-night.jpg",
-      "PackagePath": "staticwebassets\\img\\bbq-outside-night.jpg"
+      "Id": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/bbq-outside-night.jpg",
+      "PackagePath": "staticwebassets/img/bbq-outside-night.jpg"
     },
     {
-      "Id": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\bbq-sideview.jpg",
-      "PackagePath": "staticwebassets\\img\\bbq-sideview.jpg"
+      "Id": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/bbq-sideview.jpg",
+      "PackagePath": "staticwebassets/img/bbq-sideview.jpg"
     },
     {
-      "Id": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\bbq-topview.jpg",
-      "PackagePath": "staticwebassets\\img\\bbq-topview.jpg"
+      "Id": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/bbq-topview.jpg",
+      "PackagePath": "staticwebassets/img/bbq-topview.jpg"
     },
     {
-      "Id": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\beef-ribs.jpg",
-      "PackagePath": "staticwebassets\\img\\beef-ribs.jpg"
+      "Id": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/beef-ribs.jpg",
+      "PackagePath": "staticwebassets/img/beef-ribs.jpg"
     },
     {
-      "Id": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\brisket-video.mp4",
-      "PackagePath": "staticwebassets\\img\\brisket-video.mp4"
+      "Id": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/brisket-video.mp4",
+      "PackagePath": "staticwebassets/img/brisket-video.mp4"
     },
     {
-      "Id": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\brisket.jpg",
-      "PackagePath": "staticwebassets\\img\\brisket.jpg"
+      "Id": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/brisket.jpg",
+      "PackagePath": "staticwebassets/img/brisket.jpg"
     },
     {
-      "Id": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\burger.jpg",
-      "PackagePath": "staticwebassets\\img\\burger.jpg"
+      "Id": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/burger.jpg",
+      "PackagePath": "staticwebassets/img/burger.jpg"
     },
     {
-      "Id": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\bush-coal-closeup.jpg",
-      "PackagePath": "staticwebassets\\img\\bush-coal-closeup.jpg"
+      "Id": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/bush-coal-closeup.jpg",
+      "PackagePath": "staticwebassets/img/bush-coal-closeup.jpg"
     },
     {
-      "Id": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\bush-coal.jpg",
-      "PackagePath": "staticwebassets\\img\\bush-coal.jpg"
+      "Id": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/bush-coal.jpg",
+      "PackagePath": "staticwebassets/img/bush-coal.jpg"
     },
     {
-      "Id": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\catering-flyer.jpg",
-      "PackagePath": "staticwebassets\\img\\catering-flyer.jpg"
+      "Id": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/catering-flyer.jpg",
+      "PackagePath": "staticwebassets/img/catering-flyer.jpg"
     },
     {
-      "Id": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\chicken-wings.jpg",
-      "PackagePath": "staticwebassets\\img\\chicken-wings.jpg"
+      "Id": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/chicken-wings.jpg",
+      "PackagePath": "staticwebassets/img/chicken-wings.jpg"
     },
     {
-      "Id": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\chicken.jpg",
-      "PackagePath": "staticwebassets\\img\\chicken.jpg"
+      "Id": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/chicken.jpg",
+      "PackagePath": "staticwebassets/img/chicken.jpg"
     },
     {
-      "Id": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\coal-wood-group.jpg",
-      "PackagePath": "staticwebassets\\img\\coal-wood-group.jpg"
+      "Id": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/coal-wood-group.jpg",
+      "PackagePath": "staticwebassets/img/coal-wood-group.jpg"
     },
     {
-      "Id": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\favicon.ico",
-      "PackagePath": "staticwebassets\\img\\favicon.ico"
+      "Id": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/favicon.ico",
+      "PackagePath": "staticwebassets/img/favicon.ico"
     },
     {
-      "Id": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\japaleno-sausages.jpg",
-      "PackagePath": "staticwebassets\\img\\japaleno-sausages.jpg"
+      "Id": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/japaleno-sausages.jpg",
+      "PackagePath": "staticwebassets/img/japaleno-sausages.jpg"
     },
     {
-      "Id": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\logo-nobkg.png",
-      "PackagePath": "staticwebassets\\img\\logo-nobkg.png"
+      "Id": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/logo-nobkg.png",
+      "PackagePath": "staticwebassets/img/logo-nobkg.png"
     },
     {
-      "Id": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\logo.jpg",
-      "PackagePath": "staticwebassets\\img\\logo.jpg"
+      "Id": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/logo.jpg",
+      "PackagePath": "staticwebassets/img/logo.jpg"
     },
     {
-      "Id": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\maple-chipotle-rainbow-trout.jpg",
-      "PackagePath": "staticwebassets\\img\\maple-chipotle-rainbow-trout.jpg"
+      "Id": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/maple-chipotle-rainbow-trout.jpg",
+      "PackagePath": "staticwebassets/img/maple-chipotle-rainbow-trout.jpg"
     },
     {
-      "Id": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\pork-belly-burnt-ends.jpg",
-      "PackagePath": "staticwebassets\\img\\pork-belly-burnt-ends.jpg"
+      "Id": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/pork-belly-burnt-ends.jpg",
+      "PackagePath": "staticwebassets/img/pork-belly-burnt-ends.jpg"
     },
     {
-      "Id": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\pulled-lamb-bbq.jpg",
-      "PackagePath": "staticwebassets\\img\\pulled-lamb-bbq.jpg"
+      "Id": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/pulled-lamb-bbq.jpg",
+      "PackagePath": "staticwebassets/img/pulled-lamb-bbq.jpg"
     },
     {
-      "Id": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\pulled-lamb-cut-1-square.jpg",
-      "PackagePath": "staticwebassets\\img\\pulled-lamb-cut-1-square.jpg"
+      "Id": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/pulled-lamb-cut-1-square.jpg",
+      "PackagePath": "staticwebassets/img/pulled-lamb-cut-1-square.jpg"
     },
     {
-      "Id": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\pulled-lamb-cut-1.jpg",
-      "PackagePath": "staticwebassets\\img\\pulled-lamb-cut-1.jpg"
+      "Id": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/pulled-lamb-cut-1.jpg",
+      "PackagePath": "staticwebassets/img/pulled-lamb-cut-1.jpg"
     },
     {
-      "Id": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\pulled-lamb-cut-2.jpg",
-      "PackagePath": "staticwebassets\\img\\pulled-lamb-cut-2.jpg"
+      "Id": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/pulled-lamb-cut-2.jpg",
+      "PackagePath": "staticwebassets/img/pulled-lamb-cut-2.jpg"
     },
     {
-      "Id": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\pulled-pork-sandwich.jpg",
-      "PackagePath": "staticwebassets\\img\\pulled-pork-sandwich.jpg"
+      "Id": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/pulled-pork-sandwich.jpg",
+      "PackagePath": "staticwebassets/img/pulled-pork-sandwich.jpg"
     },
     {
-      "Id": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\sammy-wolfhead.jpg",
-      "PackagePath": "staticwebassets\\img\\sammy-wolfhead.jpg"
+      "Id": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/sammy-wolfhead.jpg",
+      "PackagePath": "staticwebassets/img/sammy-wolfhead.jpg"
     },
     {
-      "Id": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\sammys-flyer.jpg",
-      "PackagePath": "staticwebassets\\img\\sammys-flyer.jpg"
+      "Id": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/sammys-flyer.jpg",
+      "PackagePath": "staticwebassets/img/sammys-flyer.jpg"
     },
     {
-      "Id": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\sausages.jpg",
-      "PackagePath": "staticwebassets\\img\\sausages.jpg"
+      "Id": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/sausages.jpg",
+      "PackagePath": "staticwebassets/img/sausages.jpg"
     },
     {
-      "Id": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\socials\\facebook.png",
-      "PackagePath": "staticwebassets\\img\\socials\\facebook.png"
+      "Id": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/socials/facebook.png",
+      "PackagePath": "staticwebassets/img/socials/facebook.png"
     },
     {
-      "Id": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\socials\\gmail.png",
-      "PackagePath": "staticwebassets\\img\\socials\\gmail.png"
+      "Id": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/socials/gmail.png",
+      "PackagePath": "staticwebassets/img/socials/gmail.png"
     },
     {
-      "Id": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\socials\\instagram.png",
-      "PackagePath": "staticwebassets\\img\\socials\\instagram.png"
+      "Id": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/socials/instagram.png",
+      "PackagePath": "staticwebassets/img/socials/instagram.png"
     },
     {
-      "Id": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\socials\\phone.png",
-      "PackagePath": "staticwebassets\\img\\socials\\phone.png"
+      "Id": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/socials/phone.png",
+      "PackagePath": "staticwebassets/img/socials/phone.png"
     },
     {
-      "Id": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\spotlight\\bacon_crackers.jpg",
-      "PackagePath": "staticwebassets\\img\\spotlight\\bacon_crackers.jpg"
+      "Id": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/spotlight/bacon_crackers.jpg",
+      "PackagePath": "staticwebassets/img/spotlight/bacon_crackers.jpg"
     },
     {
-      "Id": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\spotlight\\chicken_sausage_app.jpg",
-      "PackagePath": "staticwebassets\\img\\spotlight\\chicken_sausage_app.jpg"
+      "Id": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/spotlight/chicken_sausage_app.jpg",
+      "PackagePath": "staticwebassets/img/spotlight/chicken_sausage_app.jpg"
     },
     {
-      "Id": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\spotlight\\ppork_sandwich.jpg",
-      "PackagePath": "staticwebassets\\img\\spotlight\\ppork_sandwich.jpg"
+      "Id": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/spotlight/ppork_sandwich.jpg",
+      "PackagePath": "staticwebassets/img/spotlight/ppork_sandwich.jpg"
     },
     {
-      "Id": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\spotlight\\steak_tacos.jpg",
-      "PackagePath": "staticwebassets\\img\\spotlight\\steak_tacos.jpg"
+      "Id": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/spotlight/steak_tacos.jpg",
+      "PackagePath": "staticwebassets/img/spotlight/steak_tacos.jpg"
     },
     {
-      "Id": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\squid.jpg",
-      "PackagePath": "staticwebassets\\img\\squid.jpg"
+      "Id": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/squid.jpg",
+      "PackagePath": "staticwebassets/img/squid.jpg"
     },
     {
-      "Id": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\steak-bbq.jpg",
-      "PackagePath": "staticwebassets\\img\\steak-bbq.jpg"
+      "Id": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/steak-bbq.jpg",
+      "PackagePath": "staticwebassets/img/steak-bbq.jpg"
     },
     {
-      "Id": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\steak-meal.jpg",
-      "PackagePath": "staticwebassets\\img\\steak-meal.jpg"
+      "Id": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/steak-meal.jpg",
+      "PackagePath": "staticwebassets/img/steak-meal.jpg"
     },
     {
-      "Id": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\steak-tacos-square.jpg",
-      "PackagePath": "staticwebassets\\img\\steak-tacos-square.jpg"
+      "Id": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/steak-tacos-square.jpg",
+      "PackagePath": "staticwebassets/img/steak-tacos-square.jpg"
     },
     {
-      "Id": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\steak-tacos.jpg",
-      "PackagePath": "staticwebassets\\img\\steak-tacos.jpg"
+      "Id": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/steak-tacos.jpg",
+      "PackagePath": "staticwebassets/img/steak-tacos.jpg"
     },
     {
-      "Id": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\stlouis-ribs-1.jpg",
-      "PackagePath": "staticwebassets\\img\\stlouis-ribs-1.jpg"
+      "Id": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/stlouis-ribs-1.jpg",
+      "PackagePath": "staticwebassets/img/stlouis-ribs-1.jpg"
     },
     {
-      "Id": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\stlouis-ribs-2.jpg",
-      "PackagePath": "staticwebassets\\img\\stlouis-ribs-2.jpg"
+      "Id": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/stlouis-ribs-2.jpg",
+      "PackagePath": "staticwebassets/img/stlouis-ribs-2.jpg"
     },
     {
-      "Id": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\wings.jpg",
-      "PackagePath": "staticwebassets\\img\\wings.jpg"
+      "Id": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/wings.jpg",
+      "PackagePath": "staticwebassets/img/wings.jpg"
     },
     {
-      "Id": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\wood-bagged1.jpg",
-      "PackagePath": "staticwebassets\\img\\wood-bagged1.jpg"
+      "Id": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/wood-bagged1.jpg",
+      "PackagePath": "staticwebassets/img/wood-bagged1.jpg"
     },
     {
-      "Id": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\wood-bagged2.jpg",
-      "PackagePath": "staticwebassets\\img\\wood-bagged2.jpg"
+      "Id": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/wood-bagged2.jpg",
+      "PackagePath": "staticwebassets/img/wood-bagged2.jpg"
     },
     {
-      "Id": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\wood-closeup1.jpg",
-      "PackagePath": "staticwebassets\\img\\wood-closeup1.jpg"
+      "Id": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/wood-closeup1.jpg",
+      "PackagePath": "staticwebassets/img/wood-closeup1.jpg"
     },
     {
-      "Id": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\img\\wood-closeup2.jpg",
-      "PackagePath": "staticwebassets\\img\\wood-closeup2.jpg"
+      "Id": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/img/wood-closeup2.jpg",
+      "PackagePath": "staticwebassets/img/wood-closeup2.jpg"
     },
     {
-      "Id": "C:\\Users\\Nic\\git\\SammysQ\\frontend\\SammysBBQ\\wwwroot\\script.js",
-      "PackagePath": "staticwebassets\\script.js"
+      "Id": "/Users/nic/git/SammysQ/frontend/SammysBBQ/wwwroot/script.js",
+      "PackagePath": "staticwebassets/script.js"
     },
     {
-      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.SammysBBQ.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.SammysBBQ.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.SammysBBQ.props",
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.build.SammysBBQ.props",
       "PackagePath": "build\\SammysBBQ.props"
     },
     {
-      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.SammysBBQ.props",
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.SammysBBQ.props",
       "PackagePath": "buildMultiTargeting\\SammysBBQ.props"
     },
     {
-      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.SammysBBQ.props",
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.SammysBBQ.props",
       "PackagePath": "buildTransitive\\SammysBBQ.props"
     }
   ],

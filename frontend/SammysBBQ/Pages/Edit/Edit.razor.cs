@@ -5,7 +5,7 @@ using SammysBBQ.Pages.Menu.Components;
 
 namespace SammysBBQ.Pages.Edit
 {
-    using StrDataType = List<Dictionary<List<string>,string>>;
+    using StrDataType = List<Dictionary<List<string>, string>>;
     using MenuDataType = List<Dictionary<List<string>, List<MenuItemContent>>>;
 
     public partial class Edit
@@ -31,7 +31,7 @@ namespace SammysBBQ.Pages.Edit
 
         void ParseContent(JsonDocument doc)
         {
-            foreach(JsonProperty node in doc.RootElement.EnumerateObject())
+            foreach (JsonProperty node in doc.RootElement.EnumerateObject())
             {
                 ParseContent(new List<string> { node.Name }, node);
             }
@@ -92,7 +92,7 @@ namespace SammysBBQ.Pages.Edit
                         ParseContent(tb, inode);
                     }
                 }
-                catch(Exception exc)
+                catch (Exception exc)
                 {
                 }
             }
@@ -101,7 +101,7 @@ namespace SammysBBQ.Pages.Edit
         void ParseMenuData(List<string> breadcrumb, JsonProperty node)
         {
             int index = 0;
-            foreach(JsonElement menuNode in node.Value.EnumerateArray())
+            foreach (JsonElement menuNode in node.Value.EnumerateArray())
             {
                 var ttb = new List<string>(breadcrumb)
                 {
@@ -112,7 +112,7 @@ namespace SammysBBQ.Pages.Edit
                 StrEditableData.Add(titleDataToAdd);
 
                 List<MenuItemContent> menuItemsToAdd = new();
-                foreach(JsonElement menuItem in menuNode.GetProperty("items").GetProperty("data").EnumerateArray())
+                foreach (JsonElement menuItem in menuNode.GetProperty("items").GetProperty("data").EnumerateArray())
                 {
                     menuItemsToAdd.Add(new MenuItemContent
                     {
@@ -146,40 +146,13 @@ namespace SammysBBQ.Pages.Edit
 
         async Task OnClickedAddMenu()
         {
-            int index = MenuEditableData.Count();
-
-            // add menu title to data
-            var titleBreadcrumb = new List<string>
-            {
-                "menu",
-                "menus",
-                index.ToString(),
-                "title"
-            };
-            var titleDataToAdd = new Dictionary<List<string>, string> { { titleBreadcrumb, NewMenuTitle } };
-            StrEditableData.Add(titleDataToAdd);
-
-            await UpdateData(titleBreadcrumb, NewMenuTitle);
-
-
-            // add empty menu to data
-            var breadcrumb = new List<string>
-            {
-                "menu",
-                "menus",
-                index.ToString(),
-                "items"
-            };
             var emptyMenuItems = new List<MenuItemContent> { new MenuItemContent
             {
                 ItemName = "",
                 ItemImagePath = "",
                 Description = "",
             } };
-            var menuDataToAdd = new Dictionary<List<string>, List<MenuItemContent>> { { breadcrumb, emptyMenuItems } };
-            MenuEditableData.Add(menuDataToAdd);
-
-            await UpdateData(breadcrumb, emptyMenuItems);
+            await ApiDataFactory.Instance.AddMenu(emptyMenuItems, NewMenuTitle);
 
             AddMenuIsClicked = false;
             StateHasChanged();
@@ -187,24 +160,6 @@ namespace SammysBBQ.Pages.Edit
         }
 
         #endregion
-        async Task UpdateData(List<string> Breadcrumb, List<MenuItemContent> Data)
-        {
-            List<string> b = new List<string>(Breadcrumb);
-            b.Insert(0, "root");
-            foreach (MenuItemContent content in Data)
-            {
-                if (content.ItemImagePath.Equals("None"))
-                    content.ItemImagePath = content.ItemImagePath.Replace("None", "");
-            }
-            await ApiDataFactory.Instance.Set(Data, b);
-        }
-
-        async Task UpdateData(List<string> Breadcrumb, string Data)
-        {
-            List<string> b = new List<string>(Breadcrumb);
-            b.Insert(0, "root");
-            await ApiDataFactory.Instance.Set(Data, b);
-        }
 
     }
 

@@ -58,6 +58,10 @@ def set_():
         if not str(l).isnumeric() and l not in content:
             print(f'SET: returning no key found (key={l})')
             return 'no key found'
+        elif str(l).isnumeric() and int(l) >= len(content):
+            content.append(content.copy()[int(l)-1])
+            print(content)
+            print('index out of range')
         content = content[l]
         print(f'-> {l}')
 
@@ -77,10 +81,36 @@ def set_():
     elif len(li) == 5:
         retval[li[0]][li[1]][li[2]][li[3]][li[4]]['data'] = new_content
 
+    remove_empty_menus(retval)
+
     write_content(retval)
 
     print('SET: returning success')
     return 'success'
+
+
+@app.route('/addmenu', methods=['POST'])
+def add_menu():
+    menu_items = request.json
+    menu_title = request.args.get('title')
+
+    data = { "title": {
+        "data": menu_title,
+        "type": "string"
+        },
+            "items":{
+                "data": menu_items,
+                "type": "list"
+                }
+            }
+    
+    out_data = read_content()
+    out_data['root']['menu']['menus'].append(data)
+    write_content(out_data)
+
+    return 'success'
+
+
 
 @app.route('/try', methods=['POST'])
 def _try():
@@ -119,6 +149,14 @@ def users():
 def custom_401(error):
     return Response('unauthorized', 401, {'WWW-Authenticate': 'Basic realm="Login Required"'})
 
+def remove_empty_menus(data: dict) -> dict:
+    new_menu_data = []
+    for menu in data['root']['menu']['menus']:
+        m = menu['items']['data']
+        if len(m) != 0:
+            new_menu_data.append(menu)
+    data['root']['menu']['menus'] = new_menu_data
+    return data
 
 def read_content() -> dict:
     with open(os.path.join(DIR, 'content.json'), 'r') as f:
