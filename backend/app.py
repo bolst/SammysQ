@@ -33,8 +33,8 @@ def get_():
 
 @app.route('/set', methods=['POST'])
 def set_():
-
-    if verify_user(request.authorization) == False:
+    auth = request.json['authorization']
+    if not authenticate(auth):
         abort(401)
 
     content = read_content()
@@ -65,7 +65,7 @@ def set_():
         content = content[l]
         print(f'-> {l}')
 
-    new_content = request.json
+    new_content = request.json['data']
     print("\n\n\n", new_content)
 
     if len(li) == 0:
@@ -91,7 +91,12 @@ def set_():
 
 @app.route('/addmenu', methods=['POST'])
 def add_menu():
-    menu_items = request.json
+    for key in request.json:
+        print(key, request.json[key])
+    auth = request.json['authorization']
+    if not authenticate(auth):
+        abort(401)
+
     menu_title = request.args.get('title')
 
     data = { "title": {
@@ -99,7 +104,13 @@ def add_menu():
         "type": "string"
         },
             "items":{
-                "data": menu_items,
+                "data": [
+                    {
+                        "ItemName": "",
+                        "ItemImagePath": "",
+                        "Description": ""
+                        }
+                    ],
                 "type": "list"
                 }
             }
@@ -111,19 +122,6 @@ def add_menu():
     return 'success'
 
 
-
-@app.route('/try', methods=['POST'])
-def _try():
-    print("--------------------------------------------")
-    l1 = request.args.get('l1')
-    l2 = request.args.get('l2')
-    l3 = request.args.get('l3')
-    l4 = request.args.get('l4')
-    print(f'gotta update {l1} {l2} {l3} {l4} with')
-    print(request.json)
-    return 'ayee'
-
-
 @app.route('/validate', methods=['POST'])
 def validate():
     v = Validator(os.path.join(DIR,'users.json'))
@@ -133,8 +131,12 @@ def validate():
         return 'success'
     return 'error'
 
-@app.route('/users')
+@app.route('/users', methods=['POST'])
 def users():
+    auth = request.json['authorization']
+    if not authenticate(auth):
+        abort(401)
+
     retval = []
     def GetUserInfo():
         with open(os.path.join(DIR,'users.json'), 'r') as f:
@@ -146,8 +148,14 @@ def users():
 
 
 @app.errorhandler(401)
-def custom_401(error):
+def custom_401(error=''):
     return Response('unauthorized', 401, {'WWW-Authenticate': 'Basic realm="Login Required"'})
+
+def authenticate(data: dict):
+    with open(os.path.join(DIR,'authentication.json'), 'r') as f:
+        json_data = json.load(f)
+        return data['key'] == json_data['key']
+
 
 def remove_empty_menus(data: dict) -> dict:
     new_menu_data = []
@@ -167,9 +175,6 @@ def write_content(d: dict) -> dict:
     with open(os.path.join(DIR,'content.json'), 'w') as f:
         json.dump(d, f)
         
-def verify_user(s):
-    return True
-
 
 if __name__ == '__main__':
     app.run(debug=True)

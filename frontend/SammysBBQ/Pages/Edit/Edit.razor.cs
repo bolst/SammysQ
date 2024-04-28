@@ -146,13 +146,7 @@ namespace SammysBBQ.Pages.Edit
 
         async Task OnClickedAddMenu()
         {
-            var emptyMenuItems = new List<MenuItemContent> { new MenuItemContent
-            {
-                ItemName = "",
-                ItemImagePath = "",
-                Description = "",
-            } };
-            await ApiDataFactory.Instance.AddMenu(emptyMenuItems, NewMenuTitle);
+            await ApiDataFactory.Instance.AddMenu(NewMenuTitle);
 
             AddMenuIsClicked = false;
             StateHasChanged();

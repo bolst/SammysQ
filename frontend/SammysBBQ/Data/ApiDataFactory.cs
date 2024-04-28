@@ -1,3 +1,4 @@
+using System.Text;
 using System.Text.Json;
 
 namespace SammysBBQ.Data
@@ -63,9 +64,15 @@ namespace SammysBBQ.Data
                 }
             }
 
+            string key = Environment.GetEnvironmentVariable("DB_AUTH_KEY") ?? "";
+            var authData = new Dictionary<string, string> { { "key", key } };
+            dynamic auth = new Dictionary<string, object> { { "authorization", authData } };
+            auth.Add("data", newData);
+            var json = JsonSerializer.Serialize(auth);
+            var strJson = new StringContent(json, Encoding.UTF8, "application/json");
             try
             {
-                var response = await Http.PostAsJsonAsync(url, newData);
+                var response = await Http.PostAsync(url, strJson);
                 response.EnsureSuccessStatusCode();
                 return await response.Content.ReadAsStringAsync() == "success";
             }
@@ -88,9 +95,16 @@ namespace SammysBBQ.Data
                 }
             }
 
+            string key = Environment.GetEnvironmentVariable("DB_AUTH_KEY") ?? "";
+            var authData = new Dictionary<string, string> { { "key", key } };
+            dynamic auth = new Dictionary<string, object> { { "authorization", authData } };
+            auth.Add("data", newData);
+            var json = JsonSerializer.Serialize(auth);
+            var strJson = new StringContent(json, Encoding.UTF8, "application/json");
+
             try
             {
-                var response = await Http.PostAsJsonAsync(url, newData);
+                var response = await Http.PostAsync(url, strJson);
                 response.EnsureSuccessStatusCode();
                 return await response.Content.ReadAsStringAsync() == "success";
             }
@@ -100,13 +114,18 @@ namespace SammysBBQ.Data
             }
         }
 
-        public async Task<bool> AddMenu(List<MenuItemContent> menuItems, string menuTitle)
+        public async Task<bool> AddMenu(string menuTitle)
         {
             string url = BASE_ENDPOINT + "/addmenu?title=" + menuTitle;
 
+            string key = Environment.GetEnvironmentVariable("DB_AUTH_KEY") ?? "";
+            var authData = new Dictionary<string, string> { { "key", key } };
+            dynamic auth = new Dictionary<string, object> { { "authorization", authData } };
+            var json = JsonSerializer.Serialize(auth);
+            var strJson = new StringContent(json, Encoding.UTF8, "application/json");
             try
             {
-                var response = await Http.PostAsJsonAsync(url, menuItems);
+                var response = await Http.PostAsync(url, strJson);
                 response.EnsureSuccessStatusCode();
                 return await response.Content.ReadAsStringAsync() == "success";
             }
