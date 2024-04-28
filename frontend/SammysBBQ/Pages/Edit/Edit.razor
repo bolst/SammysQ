@@ -30,5 +30,22 @@
         <br>
     }
 
+    @if(AddMenuIsClicked)
+    {
+        <Row>
+            <Column>
+                <TextEdit Placeholder="Enter menu name" @bind-Text="@NewMenuTitle"/>
+            </Column>                
+            <Column>
+                <Button Color="Color.Success" Clicked="@OnClickedAddMenu">Confirm</Button>
+            </Column>
+        </Row>
+    }
+    else
+    {
+        <Button Color="Color.Secondary" Width="Width.Is75" Clicked="@OnClickedConfirmAddMenu"><Icon Name="IconName.PlusSquare" /> Add Menu</Button> 
+    }
+
+
 }
 </Column>

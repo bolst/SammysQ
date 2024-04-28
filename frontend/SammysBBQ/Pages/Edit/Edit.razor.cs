@@ -1,5 +1,7 @@
 using System.Text.Json;
+using Microsoft.AspNetCore.Components;
 using SammysBBQ.Data;
+using SammysBBQ.Pages.Menu.Components;
 
 namespace SammysBBQ.Pages.Edit
 {
@@ -9,6 +11,7 @@ namespace SammysBBQ.Pages.Edit
     public partial class Edit
     {
 
+        [Inject] protected NavigationManager NavManager { get; set; } = default!;
 
         private JsonDocument? Content = null;
         private StrDataType StrEditableData = new();
@@ -23,23 +26,23 @@ namespace SammysBBQ.Pages.Edit
 
             AvailableImages = ImageFactory.Instance.AllImages();
 
-            if (Content != null) EnumerateContent(Content);
+            if (Content != null) ParseContent(Content);
         }
 
-        void EnumerateContent(JsonDocument doc)
+        void ParseContent(JsonDocument doc)
         {
             foreach(JsonProperty node in doc.RootElement.EnumerateObject())
             {
-                EnumerateContent(new List<string> { node.Name }, node);
+                ParseContent(new List<string> { node.Name }, node);
             }
         }
 
-        void EnumerateContent(List<string> breadcrumb, JsonProperty node)
+        void ParseContent(List<string> breadcrumb, JsonProperty node)
         {
 
             if (node.Name.Equals("menus"))
             {
-                EnumerateMenus(breadcrumb, node);
+                ParseMenuData(breadcrumb, node);
             }
 
             JsonElement n;
@@ -86,7 +89,7 @@ namespace SammysBBQ.Pages.Edit
                         {
                             inode.Name
                         };
-                        EnumerateContent(tb, inode);
+                        ParseContent(tb, inode);
                     }
                 }
                 catch(Exception exc)
@@ -95,13 +98,14 @@ namespace SammysBBQ.Pages.Edit
             }
         }
 
-        void EnumerateMenus(List<string> breadcrumb, JsonProperty node)
+        void ParseMenuData(List<string> breadcrumb, JsonProperty node)
         {
             int index = 0;
             foreach(JsonElement menuNode in node.Value.EnumerateArray())
             {
                 var ttb = new List<string>(breadcrumb)
                 {
+                    index.ToString(),
                     "title"
                 };
                 var titleDataToAdd = new Dictionary<List<string>, string> { { ttb, menuNode.GetProperty("title").GetProperty("data").ToString() } };
@@ -129,5 +133,79 @@ namespace SammysBBQ.Pages.Edit
             }
         }
 
+        #region Add Menu
+
+        private bool AddMenuIsClicked = false;
+        private string NewMenuTitle { get; set; } = "";
+
+        Task OnClickedConfirmAddMenu()
+        {
+            AddMenuIsClicked = true;
+            return Task.CompletedTask;
+        }
+
+        async Task OnClickedAddMenu()
+        {
+            int index = MenuEditableData.Count();
+
+            // add menu title to data
+            var titleBreadcrumb = new List<string>
+            {
+                "menu",
+                "menus",
+                index.ToString(),
+                "title"
+            };
+            var titleDataToAdd = new Dictionary<List<string>, string> { { titleBreadcrumb, NewMenuTitle } };
+            StrEditableData.Add(titleDataToAdd);
+
+            await UpdateData(titleBreadcrumb, NewMenuTitle);
+
+
+            // add empty menu to data
+            var breadcrumb = new List<string>
+            {
+                "menu",
+                "menus",
+                index.ToString(),
+                "items"
+            };
+            var emptyMenuItems = new List<MenuItemContent> { new MenuItemContent
+            {
+                ItemName = "",
+                ItemImagePath = "",
+                Description = "",
+            } };
+            var menuDataToAdd = new Dictionary<List<string>, List<MenuItemContent>> { { breadcrumb, emptyMenuItems } };
+            MenuEditableData.Add(menuDataToAdd);
+
+            await UpdateData(breadcrumb, emptyMenuItems);
+
+            AddMenuIsClicked = false;
+            StateHasChanged();
+            NavManager.NavigateTo("/edit", true);
+        }
+
+        #endregion
+        async Task UpdateData(List<string> Breadcrumb, List<MenuItemContent> Data)
+        {
+            List<string> b = new List<string>(Breadcrumb);
+            b.Insert(0, "root");
+            foreach (MenuItemContent content in Data)
+            {
+                if (content.ItemImagePath.Equals("None"))
+                    content.ItemImagePath = content.ItemImagePath.Replace("None", "");
+            }
+            await ApiDataFactory.Instance.Set(Data, b);
+        }
+
+        async Task UpdateData(List<string> Breadcrumb, string Data)
+        {
+            List<string> b = new List<string>(Breadcrumb);
+            b.Insert(0, "root");
+            await ApiDataFactory.Instance.Set(Data, b);
+        }
+
     }
+
 }
